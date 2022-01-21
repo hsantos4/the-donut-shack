@@ -88,9 +88,58 @@ blockquote, q {
 .mobile-link {
 	display: inline-block;
 	text-decoration: none;
-	color: rgb(29, 29, 29);
+	color: #3D1464;
 	padding-bottom: 1rem;
 
+}
+
+/* Hero section */
+.hero {
+	background-image: url('./images/hero-image.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 95vh;
+	padding: 1rem;
+
+}
+
+.hero-content {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #000000;
+	
+}
+
+.hero-content h1 {
+	color: rgb(238, 238, 238);
+	font-size: 4rem;
+	font-weight: 300;
+	margin-bottom: 1rem;
+}
+.hero-content p {
+	font-size: 1.6rem;
+	font-weight: 200;
+	color: rgb(238, 238, 238);
+	margin-bottom: 1.5rem;
+}
+.btn-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.btn {
+	text-decoration: none;
+	color: rgb(238, 238, 238);
+	font-size: 1.3rem;
+	background-color: #FC100B;
+	padding: .5rem 1.8rem;
+	border-radius: 20px;
 }
 
 
