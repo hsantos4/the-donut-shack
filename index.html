@@ -17,65 +17,65 @@
     <title>The donut shack | The best mini donuts</title>
   </head>
   <body>
-    <nav class="main-nav">
-      <a href="index.html">
-        <img
-          class="logo"
-          src="/images/donut-logo.png"
-          alt="A brown doughnut under a little house, with the words the donut shack in the doughnut"
-        />
-      </a>
+    <header class="nav-header">
+      <nav class="main-nav">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="/images/donut-logo.png"
+            alt="A brown doughnut under a little house, with the words the donut shack in the doughnut"
+          />
+        </a>
+        <!-- Mobile button  -->
+        <svg
+          class="mobile-btn"
+          xmlns="http://www.w3.org/2000/svg"
+          width="55"
+          height="55"
+          fill="currentColor"
+          class="bi bi-list"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+          />
+        </svg>
+        <!-- Main navigation for large screen sizes -->
+        <ul class="main-items hidden">
+          <li class="main-item">
+            <a class="main-link" href="index.html">Home</a>
+          </li>
+          <li class="main-item">
+            <a class="main-link" href="index.html">About</a>
+          </li>
+          <li class="main-item">
+            <a class="main-link" href="index.html">Services</a>
+          </li>
+          <li class="main-item">
+            <a class="main-link" href="index.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-      <!-- Mobile button  -->
-      <svg
-        class="mobile-btn"
-        xmlns="http://www.w3.org/2000/svg"
-        width="55"
-        height="55"
-        fill="currentColor"
-        class="bi bi-list"
-        viewBox="0 0 16 16"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-        />
-      </svg>
-
-      <!-- Main navigation for large screen sizes -->
-      <ul class="main-items hidden">
-        <li class="main-item">
-          <a class="main-link" href="index.html">Home</a>
-        </li>
-        <li class="main-item">
-          <a class="main-link" href="index.html">About</a>
-        </li>
-        <li class="main-item">
-          <a class="main-link" href="index.html">Services</a>
-        </li>
-        <li class="main-item">
-          <a class="main-link" href="index.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- drop down menu for mobile screen sizes -->
-    <div class="mobile-container">
-      <ul class="mobile-items hidden">
-        <li class="mobile-item">
-          <a class="mobile-link" href="index.html">Home</a>
-        </li>
-        <li class="mobile-item">
-          <a class="mobile-link" href="index.html">About</a>
-        </li>
-        <li class="mobile-item">
-          <a class="mobile-link" href="index.html">Services</a>
-        </li>
-        <li class="mobile-item">
-          <a class="mobile-link" href="index.html">Contact</a>
-        </li>
-      </ul>
-    </div>
+      <!-- drop down menu for mobile screen sizes -->
+      <div class="mobile-container hidden">
+        <ul class="mobile-items">
+          <li class="mobile-item">
+            <a class="mobile-link" href="index.html">Home</a>
+          </li>
+          <li class="mobile-item">
+            <a class="mobile-link" href="index.html">About</a>
+          </li>
+          <li class="mobile-item">
+            <a class="mobile-link" href="index.html">Services</a>
+          </li>
+          <li class="mobile-item">
+            <a class="mobile-link" href="index.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
     <!-- Hero section -->
     <section class="hero">
@@ -89,6 +89,110 @@
         </div>
       </div>
     </section>
+    <!-- This is the end of the hero section -->
+
+    <!-- Info section, this will be grid section at the tablet size and larger -->
+    <section class="info">
+      <div class="info-content">
+        <h2>Welcome Mini Donut Lovers</h2>
+
+        <p>
+          We are proudly serving the best mini donuts thoughtout the Carolinas
+          in our newly renoveted donut truck!
+        </p>
+        <br />
+        <p>
+          We travel citiy yi city, bringing the best mini donuts with a variety
+          of toppings
+        </p>
+        <br />
+        <p>
+          We are so excited to share our passion and love with fellow donut
+          lovers
+        </p>
+      </div>
+
+      <div class="info-image-container">
+        <img
+          src="./images/info-section.png"
+          class="info-image"
+          alt="An image of an owner of a food truck preparing food for a person"
+        />
+      </div>
+    </section>
+    <!-- This is the end of the info section -->
+
+
+
+
+    <!-- This is the start of the photo gallery -->
+    <section class="photo-section">
+      <!-- This is the photo gallery --> 
+      <div class="photo-gallery-container">
+        <img
+          src="./images/image-gallery-1.jpg"
+          class="photo-gallery-image"
+          alt=""
+        />
+      </div>
+
+
+
+      <!-- This is the container for the next and back button for the photo gallery -->
+      <div class="gallery-btn-container back-btn-container">
+        <span class="back-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="#3D1464"
+            class="bi bi-arrow-left-short"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
+            />
+          </svg>
+        </span>
+        <div class="next-btn-container">
+          <span class="next-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="#3D1464"
+              class="bi bi-arrow-right-short"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </section>
+    <!-- This is the end of the photo gallery -->
+
+<!-- The start of the process section -->
+    <section class="process">
+      <div class="process-content">
+        <h3>Our Process is simple</h3>
+
+        <div class="process-steps">
+          <div class="process-one">
+            <i
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- The end of the process section -->
     <script src="index.js"></script>
   </body>
 </html>
