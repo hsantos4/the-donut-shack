@@ -159,6 +159,7 @@ blockquote, q {
 .info {
 	height: 100%;
 	padding: 1rem;
+	margin: 5rem 0rem;
 }
 
 .info-image {
@@ -205,9 +206,22 @@ blockquote, q {
 	bottom: 15%;
 }
 
+/* This is the process section */
+.process-content {
+	text-align: center;
+}
+
+.process-content h3 {
+	font-size: 2rem;
+}
+.process-content p {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
 /* This is for the logo */
 .logo{
-    width: 32%;
+    width: 20%;
     height: auto;
 }
 
