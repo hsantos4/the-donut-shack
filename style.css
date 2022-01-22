@@ -152,7 +152,7 @@ blockquote, q {
 }
 
 .btn-menu {
-	margin-left: 1rem;
+	margin-left: 2rem;
 }
 
 /* Info section */
@@ -186,17 +186,14 @@ blockquote, q {
 }
 /* This the photo gallery section */
 .photo-section {
-	height: 90vh;
-}
-
-.photo-gallery-container {
-	width: 100%;
+	height: 100%;
+	margin: 5rem 0rem;
 }
 
 .photo-gallery-image {
 	display: block;
 	margin: 0 auto;
-	width: 50%;
+	width: 60%;
 }
 .gallery-btn-container {
 	display: flex;
@@ -228,6 +225,7 @@ blockquote, q {
 	font-size: 1rem;
 	font-weight: 200;
 	margin-bottom: 1rem;
+	line-height: 1.2rem;
 }
 
 .process-img {
@@ -238,6 +236,11 @@ blockquote, q {
 	text-decoration: none;
 	color: #FC100B;
 	font-size: 1.6rem;
+}
+
+.footer {
+	background-color: #e4e4e4;
+	color: rgb(20, 20, 20);
 }
 
 /* This is for the logo */
@@ -280,20 +283,22 @@ blockquote, q {
 		 padding: .5rem 4rem;
 	}
 
-	.process {
+	.process-content {
 		display: grid;
-		grid-template-columns: 25% 25% 25%;
-		grid-template-rows:100% 100%;
+		grid-template-columns: 34% 34% 32%;
+		grid-template-rows: 20% 80% 10%;
 		grid-template-areas: 
-		"heading"
+		"heading heading heading"
 		"process1 process2 process3"
+		"btn btn btn"
 		;
+		
 	}	
 
-	.process-content h3 {
+	.process-heading {
 		grid-area: heading;
+		margin: auto 0;
 	}
-
 	.process-one-heading {
 		grid-area: process1;
 	}
@@ -302,8 +307,16 @@ blockquote, q {
 	}
 	.process-three-heading {
 		grid-area: process3;
+
 	}
-	
+	.process-cta {
+		grid-area: btn;
+		margin: auto 0;
+	}
+
+	.photo-gallery-image {
+		width: 40%;
+	}
 }
 
 @media only screen and (min-width: 1000px) {
