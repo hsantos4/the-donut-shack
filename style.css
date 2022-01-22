@@ -207,16 +207,37 @@ blockquote, q {
 }
 
 /* This is the process section */
+.process {
+	margin: 3rem 0rem;
+}
 .process-content {
 	text-align: center;
+	padding: 1rem;
 }
 
 .process-content h3 {
 	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.process-content h4 {
+	margin-top: 1rem;
+	font-size: 1.8rem;
 }
 .process-content p {
 	font-size: 1rem;
+	font-weight: 200;
 	margin-bottom: 1rem;
+}
+
+.process-img {
+	width: 80%;
+}
+
+.process-cta {
+	text-decoration: none;
+	color: #FC100B;
+	font-size: 1.6rem;
 }
 
 /* This is for the logo */
@@ -257,6 +278,30 @@ blockquote, q {
 
 	.btn {
 		 padding: .5rem 4rem;
+	}
+
+	.process {
+		display: grid;
+		grid-template-columns: 25% 25% 25%;
+		grid-template-rows:100% 100%;
+		grid-template-areas: 
+		"heading"
+		"process1 process2 process3"
+		;
+	}	
+
+	.process-content h3 {
+		grid-area: heading;
+	}
+
+	.process-one-heading {
+		grid-area: process1;
+	}
+	.process-two-heading {
+		grid-area: process2;
+	}
+	.process-three-heading {
+		grid-area: process3;
 	}
 	
 }
