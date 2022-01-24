@@ -238,8 +238,38 @@ blockquote, q {
 	font-size: 1.6rem;
 }
 
+/* Events homepage section */
+.events {
+	padding: 1rem;
+}
+
+.events-content {
+	text-align: center;
+	line-height: 1.2;
+	margin-bottom: 1rem;
+}
+
+.events-content h3 {
+	font-size: 2rem;
+	margin-bottom: .6rem;
+}
+
+.events-content p {
+	font-size: 1.3rem;
+	font-weight: 200;
+}
+
+.events-content a {
+	color: #fc0f0bad;
+}
+
+.events-cta {
+	display: block;
+	margin-top: .5rem;
+	font-size: 1.5rem;
+}
+
 .footer {
-	background-color: #e4e4e4;
 	color: rgb(20, 20, 20);
 }
 
