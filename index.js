@@ -5,10 +5,12 @@ const mobileItems = document.querySelector('.mobile-items');
 const mobileContainer = document.querySelector('.mobile-container')
 const navHeader = document.querySelector('.nav-header');
 const mainNav = document.querySelector('.main-nav');
+const slideImages = document.querySelectorAll(".slide-images");
+const imageContainer = document.querySelector(".slides");
+const imgIndexs = [6,7,8,9,10,11,12];
 
-const backBtn = document.querySelector('.back-btn');
-const nextBtn = document.querySelector('.next-btn');
-const imgArr = [0, 1, 2, 3, 4, 5];
+// Optimize imgs
+
 
 // Mobile click down
 mobileBtn.addEventListener('click', () =>  {
@@ -40,9 +42,17 @@ const observer = new IntersectionObserver(headerObserver, options);
 observer.observe(mainNav);
 // This is the end of the sticky navigation
 
-// 
+// makes the image slider
+console.log(slideImages.length)
 
-// This will make a random number that help determine what image is shown
-function getRandomNumber() {
-    return Math.floor(Math.random() * 6);
-}
+let i = 0;
+function start(){
+    i++;
+   if (i > slideImages.length-1){
+     i = 0;
+   }
+   imageContainer.style.transform = `translateX(${-i * 100}%)`
+ }
+
+ setInterval(start,2000);
+
