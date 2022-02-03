@@ -23,13 +23,25 @@ const eventTwoDate = document.querySelector('.eventTwoDate');
 const eventTwoLocation = document.querySelector('.eventTwoLocation');
 const eventTwoWeb = document.querySelector('.eventTwoWeb');
 // eventThree
-
+const eventThreeName = document.querySelector('.eventThreeName');
+const eventThreeDate = document.querySelector('.eventThreeDate');
+const eventThreeLocation = document.querySelector('.eventThreeLocation');
+const eventThreeWeb = document.querySelector('.eventThreeWeb');
 // eventFour
-
+const eventFourName = document.querySelector('.eventFourName');
+const eventFourDate = document.querySelector('.eventFourDate');
+const eventFourLocation = document.querySelector('.eventFourLocation');
+const eventFourWeb = document.querySelector('.eventFourWeb');
 // eventFive
-
+const eventFiveName = document.querySelector('.eventFiveName');
+const eventFiveDate = document.querySelector('.eventFiveDate');
+const eventFiveLocation = document.querySelector('.eventFiveLocation');
+const eventFiveWeb = document.querySelector('.eventFiveWeb');
 // eventSix
-
+const eventSixName = document.querySelector('.eventSixName');
+const eventSixDate = document.querySelector('.eventSixDate');
+const eventSixLocation = document.querySelector('.eventSixLocation');
+const eventSixWeb = document.querySelector('.eventSixWeb');
 
 const imgIndexs = [6,7,8,9,10,11,12];
 
@@ -104,7 +116,12 @@ const event5 = new Events("Laurel Fest", "May 13th - 14th", "Laurel, NC", "https
 const event6 = new Events("Hokefest", "June 3rd - 10th", "Raeford, NC", "https://festivalnet.com/53067/Raeford-North-Carolina/Food-Festivals/Hokefest")
 
 
-
+eventOneInfo();
+eventTwoInfo();
+eventThreeInfo();
+eventFourInfo();
+eventFiveInfo();
+eventSixInfo();
 
 
 function eventOneInfo() {
@@ -144,6 +161,6 @@ function eventSixInfo() {
     eventSixWeb.textContent = event6.website;
 }
 
+function websiteLink() {
 
-eventOneInfo();
-eventTwoInfo();
+};
