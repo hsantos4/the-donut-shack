@@ -388,6 +388,8 @@ blockquote, q {
 	background-color: #3D1464;
 	color: white;
 	border-radius: 20px;
+	max-width: 30rem;
+
 }
 
 input[type="text"],
@@ -396,14 +398,16 @@ input[type="email"] {
 	border-radius: 20px;
 	padding: 6px 6px;
 	margin-bottom: 1rem;
-	width: 100%;
+	width: 60%;
 }
 
 #message {
 	border: none;
 	border-radius: 10px ;
 	margin-bottom: 1rem;
-	width: 80%;
+	width: 100%;
+	height: 4rem;
+	font-size: 1.4rem;
 }
 
 .contact-form button {
@@ -571,6 +575,16 @@ input[type="email"] {
 	.about-img {
 		width: 60%;
 	}
+
+	input[type="text"],
+	input[type="email"] {
+	width: 50%;
+}
+
+#message {
+	width: 56%;
+	font-size: 1.4rem;
+}
 
 	
 
