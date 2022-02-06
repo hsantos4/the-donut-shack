@@ -159,7 +159,7 @@ blockquote, q {
 .info {
 	height: 100%;
 	padding: 1rem;
-	margin: 10rem 0rem;
+	margin: 4rem 0rem;
 }
 
 .info-image {
@@ -206,7 +206,7 @@ blockquote, q {
 
 /* This is the process section */
 .process {
-	margin-bottom: 200px;
+	margin-bottom:5rem;
 }
 .process-content {
 	text-align: center;
@@ -215,23 +215,23 @@ blockquote, q {
 }
 
 .process-content h3 {
-	font-size: 2rem;
-	margin-bottom: 1rem;
+	font-size: 2.4rem;
 }
 
 .process-content h4 {
 	margin-top: 1rem;
 	font-size: 1.8rem;
+	margin-bottom: 1rem;
 }
 .process-content p {
-	font-size: 1rem;
-	font-weight: 200;
+	font-size: 1.2rem;
+	font-weight: 300;
 	margin-bottom: .5rem;
-	line-height: 1.2rem;
+	line-height: 1.4rem;
 }
 
 .process-container {
-	margin-bottom: 1rem;
+	margin: 3rem 0;
 }
 .process-content a {
 	font-size: 1.2rem;
@@ -250,7 +250,7 @@ blockquote, q {
 
 /* Events homepage section */
 .events {
-	margin: 10rem 0;
+	margin: 5rem 0;
 	padding: 1rem;
 }
 
@@ -266,7 +266,7 @@ blockquote, q {
 }
 
 .events-content p {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	font-weight: 200;
 
 }
@@ -318,13 +318,22 @@ blockquote, q {
 	font-size: 1.2rem;
 }
 /* About content */
-
+.about {
+	margin: 1rem;
+}
 
 .about-content {
+	width: 70%;
 	padding: 1rem;
-	line-height: 2.4rem;
-	text-align: center;
+	line-height: 2rem;
 
+}
+
+
+.about-content h4 {
+	font-size: 2rem;
+	font-weight: 500;
+	margin: 2rem;
 }
 
 
@@ -374,7 +383,6 @@ blockquote, q {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 80%;
 	padding: 1rem;
 	margin: 0 auto;
 	background-color: #3D1464;
@@ -388,7 +396,7 @@ input[type="email"] {
 	border-radius: 20px;
 	padding: 6px 6px;
 	margin-bottom: 1rem;
-	width: 70%;
+	width: 100%;
 }
 
 #message {
@@ -424,6 +432,7 @@ input[type="email"] {
 .eventDetail h2 {
 	font-weight: 500;
 	font-size: 1.5rem;
+	margin-bottom: .5rem;
 
 }
 
@@ -431,6 +440,21 @@ input[type="email"] {
 	font-weight: 200;
 	font-size: 1.2;
 	margin-bottom: .5rem;
+}
+
+.eventDetail > a {
+	color: #000000;
+	word-break: break-all;
+}
+
+/* About page  */
+.about-image {
+	margin: 1rem;
+}
+.about-img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
 }
 
 
@@ -448,6 +472,31 @@ input[type="email"] {
     display: none;
 }
 
+@keyframes slidy {
+	0% { left: 0%; }
+	20% { left: 0%; }
+	25% { left: -100%; }
+	45% { left: -100%; }
+	50% { left: -200%; }
+	70% { left: -200%; }
+	75% { left: -300%; }
+	95% { left: -300%; }
+	100% { left: -400%; }
+	}
+	
+	/* Image slider */
+	div#slider { overflow: hidden; }
+	div#slider figure img { width: 20%; float: left; }
+	div#slider figure { 
+	  position: relative;
+	  width: 500%;
+	  margin: 0;
+	  left: 0;
+	  text-align: left;
+	  font-size: 0;
+	  animation: 10s slidy infinite; 
+	}
+	
 
 /* Media queries */
 
@@ -470,9 +519,9 @@ input[type="email"] {
 
 	.process-content {
 		display: grid;
-		align-content: center;
-		grid-template-columns: 33% 33% 33%;
-		grid-template-rows: 20% 80% 20%;
+		align-items: center;
+		grid-template-columns: 33% 31% 33%;
+		grid-template-rows: 20% 60% 20%;
 		gap: 1rem;
 		grid-template-areas: 
 		"heading heading heading"
@@ -514,13 +563,16 @@ input[type="email"] {
 		padding-left: 1rem;
 	}
 
-	.about-content {
-		display: grid;
-		grid-template-columns: 50% 49%;	
-		gap: 1rem;
-		padding: 1rem;
-		
+	
+	.eventDetail {
+		text-align: center;
+		width: 50%;
 	}
+	.about-img {
+		width: 60%;
+	}
+
+	
 
 	/* .about-image {
 		grid-area: img;
@@ -540,7 +592,7 @@ input[type="email"] {
 
 	.hero-content {
 		margin: 0 auto;
-		width: 40%;
+		width: 60%;
 	}
 	.hero-content h1 {
 		font-size: 6rem;
@@ -582,6 +634,55 @@ input[type="email"] {
 	.contact-form {
 		width: 50rem;
 	}
+	.eventDetail {
+		text-align: center;
+		width: 40%;
+	}
+
+	.events-content > p {
+		width: 60%;
+		font-size: 1.4rem;
+	}
+	
+	.about-img {
+		width: 50%;
+	}
+	.about-content p {
+		font-size: 1.5rem;
+	}
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+	.info-content {
+		width: 70%;
+	}
+	.events-content h3 {
+		font-size: 3rem;
+	}
+
+	.events-content p {
+		font-size: 1.7rem;
+	}
+
+	.process-container h4 {
+		font-size: 2.2rem;
+	}
+
+	.process-container p {
+		font-size: 1.3rem;
+		line-height: 1.8rem;
+	}
+
+	.process-container > a {
+		font-size: 1.5rem;
+	}
+	.about-img {
+		width: 40%;
+	}
+
+	
 
 }
 

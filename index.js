@@ -6,26 +6,6 @@ const mobileContainer = document.querySelector('.mobile-container')
 const navHeader = document.querySelector('.nav-header');
 const mainNav = document.querySelector('.main-nav');
 
-
-const slideImages = document.querySelectorAll(".slide-images");
-const imageContainer = document.querySelector(".slides");
-
-// This is the events page variables
-
-
-
-const imgIndexs = [6,7,8,9,10,11,12];
-
-
-
-
-
-
-
-
-// Optimize imgs
-
-
 // Mobile click down
 mobileBtn.addEventListener('click', () =>  {
     if (mobileContainer.classList.contains('hidden')) {
@@ -55,19 +35,7 @@ const headerObserver = (entries) => {
 
 const observer = new IntersectionObserver(headerObserver, options);
 observer.observe(navHeader);
-// This is the end of the sticky navigation
 
-// makes the image slider
-// let i = 0;
-// function start(){
-//     i++;
-//    if (i > slideImages.length-1){
-//      i = 0;
-//    }
-//    imageContainer.style.transform = `translateX(${-i * 100}%)`
-//  }
-
-//  setInterval(start,2000);
 
 
 
@@ -112,6 +80,7 @@ const eventSixLocation = document.querySelector('.eventSixLocation');
 const eventSixWeb = document.querySelector('.eventSixWeb');
 
 
+
 const event1 = new Events("Rumba on The Lumber", "March 5th", "Lumberton, NC", "rumbaonthelumber.com")
 const event2 = new Events("Doko Ribfest", "March 12th", "Blythewood, SC", "blythewoodribfest.com")
 const event3 = new Events("Food Truck Festival of America", "April 9th", "Columbia, SC", "foodtruckfestivalsofamerica.com")
@@ -131,6 +100,8 @@ eventThreeInfo();
 eventFourInfo();
 eventFiveInfo();
 eventSixInfo();
+
+
 
 
 function eventOneInfo() {
