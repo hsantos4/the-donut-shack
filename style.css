@@ -110,14 +110,12 @@ blockquote, q {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 90vh;
+	height: 100vh;
 	padding: 1.5rem;
 
 }
 
 .hero-content {
-	position: relative;
-	top: 20%;
 	margin:0 auto;
 	text-align: center;
 	color: #000000;
@@ -333,7 +331,7 @@ blockquote, q {
 .about-content h4 {
 	font-size: 2rem;
 	font-weight: 500;
-	margin: 2rem;
+	margin: 2rem 0;
 }
 
 
@@ -358,7 +356,7 @@ blockquote, q {
 
 .form-section {
 	margin: 1rem;
-	height: 100vh;
+	height: 100%;
 }
 
 .contact-content {
@@ -451,6 +449,16 @@ input[type="email"] {
 	word-break: break-all;
 }
 
+/* Menu */
+
+.menu {
+	padding: 1rem;
+}
+
+.menu-img {
+	width: 100%;
+}
+
 /* About page  */
 .about-image {
 	margin: 1rem;
@@ -521,6 +529,14 @@ input[type="email"] {
 		 padding: .5rem 4rem;
 	}
 
+	.hero-content {
+		position: relative;
+		top: 20%;
+	
+		
+		
+	}
+
 	.process-content {
 		display: grid;
 		align-items: center;
@@ -586,7 +602,11 @@ input[type="email"] {
 	font-size: 1.4rem;
 }
 
-	
+	.menu-img {
+		display: block;
+		margin: 0 auto;
+		width: 50%;
+	}
 
 	/* .about-image {
 		grid-area: img;
@@ -696,7 +716,9 @@ input[type="email"] {
 		width: 40%;
 	}
 
-	
+	.menu-img {
+		width: 50%;
+	}
 
 }
 

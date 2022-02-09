@@ -5,6 +5,10 @@ const mobileItems = document.querySelector('.mobile-items');
 const mobileContainer = document.querySelector('.mobile-container')
 const navHeader = document.querySelector('.nav-header');
 const mainNav = document.querySelector('.main-nav');
+const footerYear = document.querySelector('.footer-year');
+const copyRightInfo = document.querySelector('.copyRightInfo');
+let copyYear = footerYear.innerText = new Date().getFullYear();
+
 
 // Mobile click down
 mobileBtn.addEventListener('click', () =>  {
@@ -36,7 +40,13 @@ const headerObserver = (entries) => {
 const observer = new IntersectionObserver(headerObserver, options);
 observer.observe(navHeader);
 
+footerInfo();
 
+// This is for the copy right year
+function footerInfo() {
+    copyRightInfo.innerText = "Copyright " + "© " + `${copyYear} ` +  "The Donut Shack." + " All rights reserved";
+
+}
 
 
 
