@@ -497,7 +497,11 @@ input[type="email"] {
 	}
 	
 	/* Image slider */
-	div#slider { overflow: hidden; }
+	div#slider { 
+		
+		overflow: hidden; 
+	}
+	
 	div#slider figure img { width: 20%; float: left; }
 	div#slider figure { 
 	  position: relative;
@@ -608,18 +612,12 @@ input[type="email"] {
 		width: 50%;
 	}
 
-	/* .about-image {
-		grid-area: img;
+	div#slider { 
+		width: 40%;
+		margin: 0 auto;
+		overflow: hidden; 
 	}
-	.about-content1 {
-		grid-area: about-content1;
-	}
-	.about-content2 {
-		grid-area: about-content2;
-	}
-	.about-cta {
-		grid-area: about-cta;
-	} */
+	
 }
 
 @media only screen and (min-width: 1000px) {
