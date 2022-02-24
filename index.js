@@ -7,6 +7,8 @@ const navHeader = document.querySelector('.nav-header');
 const mainNav = document.querySelector('.main-nav');
 const footerYear = document.querySelector('.footer-year');
 const copyRightInfo = document.querySelector('.copyRightInfo');
+
+
 let copyYear = footerYear.innerText = new Date().getFullYear();
 
 
