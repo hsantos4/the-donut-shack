@@ -186,6 +186,84 @@ blockquote, q {
 	margin-bottom: 1rem;
 }
 
+/* Styles for image slider */
+.imageCarousel {
+	height: 80%;
+	width: 80%;
+	margin: 20px auto;
+  }
+  
+  .imageCarousel > img {
+	width: 100%;
+  
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {
+	  opacity: 0.4;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes fade {
+	from {
+	  opacity: 0.4;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  #prev-button,
+  #next-button {
+	display: inline-block;
+	padding: 8px 12px;
+	width: auto;
+	height: 50px;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+	outline: none;
+	border-color: transparent;
+  
+	/* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+	line-height: normal;
+  
+	/* Corrects font smoothing for webkit */
+	-webkit-font-smoothing: inherit;
+	-moz-osx-font-smoothing: inherit;
+  
+	/* Corrects inability to style clickable `input` types in iOS */
+	-webkit-appearance: none;
+  
+	cursor: pointer;
+  
+	/* colors */
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+  
+	/* border */
+	border-radius: 5%;
+  
+	/* CSS Transitions */
+	transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
+	-moz-transition: background-color 0.5s ease;
+	-o-transition: background-color 0.5s ease;
+  }
+  
+  #prev-button:hover,
+  #next-button:hover {
+	background-color: rgba(0, 0, 0, 1);
+  }
+  
+
 /* Events */
 .events {
 	padding: 1rem;
