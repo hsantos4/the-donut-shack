@@ -50,40 +50,6 @@ function footerInfo() {
 
 }
 
-// Image slider
-let images = [
-    "./images/donut-shack-compressed/IMG-7799",
-    "./images/donut-shack-compressed/IMG-7801",
-    "./images/donut-shack-compressed/IMG-7797",
-    "./images/donut-shack-compressed/IMG-7795",
-    "./images/donut-shack-compressed/IMG-7792"
-  ];
-  
-  let currentIndex = 0;
-  let next = document.querySelector("#next-button");
-  let prev = document.querySelector("#prev-button");
-  let imgSrc = document.querySelector("img");
-  
-  let incrementIndex = () => {
-    currentIndex++;
-    if (currentIndex > images.length - 1) currentIndex = 0;
-  };
-  
-  let decrementIndex = () => {
-    currentIndex--;
-    if (currentIndex < 0) currentIndex = images.length - 1;
-  };
-  
-  next.onclick = () => {
-    incrementIndex();
-    imgSrc.setAttribute("src", images[currentIndex]);
-  };
-  
-  prev.onclick = () => {
-    decrementIndex();
-    imgSrc.setAttribute("src", images[currentIndex]);
-  };
-  
 
 
 
