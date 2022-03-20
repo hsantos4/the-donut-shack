@@ -7,10 +7,12 @@ const navHeader = document.querySelector('.nav-header');
 const mainNav = document.querySelector('.main-nav');
 const footerYear = document.querySelector('.footer-year');
 const copyRightInfo = document.querySelector('.copyRightInfo');
+// const headSection = document.head;
 
 
 let copyYear = footerYear.innerText = new Date().getFullYear();
 
+// Add the script ag dynamically
 
 // Mobile click down
 mobileBtn.addEventListener('click', () =>  {
@@ -93,19 +95,22 @@ const eventSixLocation = document.querySelector('.eventSixLocation');
 const eventSixWeb = document.querySelector('.eventSixWeb');
 
 
+// Adding details for the site components
+const event1 = new Events("Cheraw Spring Fest", "April 2nd", "Cheraw, SC", "https://www.cheraw.com")
+const event2 = new Events("Food Truck Festival of America", "April 9th", "Columbia, SC", "foodtruckfestivalsofamerica.com")
+const event3 = new Events("RockyFest Rock Climbing", "April 23rd", "Hiddenite, NC", "https://rockyfacepark.com")
+const event4 = new Events("Movie Night At The Park", "Apirl 29th", "Monroe, NC", "www.monroenc.org")
+const event5 = new Events("Hippie Festival", "May 7th - 8th", "Salisbury, NC", "www.hippiefest.org")
+const event6 = new Events("Laurel Fest", "May 13th - 14th", "Laurel, NC", "laurelfestnc.com")
 
-const event1 = new Events("Rumba on The Lumber", "March 5th", "Lumberton, NC", "rumbaonthelumber.com")
-const event2 = new Events("Doko Ribfest", "March 12th", "Blythewood, SC", "blythewoodribfest.com")
-const event3 = new Events("Food Truck Festival of America", "April 9th", "Columbia, SC", "foodtruckfestivalsofamerica.com")
-const event4 = new Events("Hippie Festival", "May 7th - 8th", "Salisbury, NC", "www.hippiefest.org")
-const event5 = new Events("Laurel Fest", "May 13th - 14th", "Laurel, NC", "laurelfestnc.com")
-const event6 = new Events("Hokefest", "June 3rd - 10th", "Raeford, NC", "festivalnet.com")
-const event1Link = "https://rumbaonthelumber.com/";
-const event2Link = "https://blythewoodribfest.com/";
-const event3Link = "https://www.foodtruckfestivalsofamerica.com/";
-const event4Link = "http://www.hippiefest.org/";
-const event5Link = "https://laurelfestnc.com/";
-const event6Link = "https://festivalnet.com/53067/Raeford-North-Carolina/Food-Festivals/Hokefest";
+
+// This creates the url that will take them to the page
+const event1Link = "https://www.cheraw.com/residents/what_to_do/upcoming_festivals_and_events/index.php";
+const event2Link = "https://www.foodtruckfestivalsofamerica.com/";
+const event3Link = "https://rockyfacepark.com/rockyfest/"
+const event4Link = "https://www.monroenc.org/Community/Things-to-do/Calendar-of-Events";
+const event5Link = "http://www.hippiefest.org/";
+const event6Link = "https://laurelfestnc.com/";
 
 eventOneInfo();
 eventTwoInfo();
