@@ -96,21 +96,21 @@ const eventSixWeb = document.querySelector('.eventSixWeb');
 
 
 // Adding details for the site components
-const event1 = new Events("Cheraw Spring Fest", "April 2nd", "Cheraw, SC", "https://www.cheraw.com")
-const event2 = new Events("Food Truck Festival of America", "April 9th", "Columbia, SC", "foodtruckfestivalsofamerica.com")
-const event3 = new Events("RockyFest Rock Climbing", "April 23rd", "Hiddenite, NC", "https://rockyfacepark.com")
-const event4 = new Events("Movie Night At The Park", "Apirl 29th", "Monroe, NC", "www.monroenc.org")
-const event5 = new Events("Hippie Festival", "May 7th - 8th", "Salisbury, NC", "www.hippiefest.org")
-const event6 = new Events("Laurel Fest", "May 13th - 14th", "Laurel, NC", "laurelfestnc.com")
+const event1 = new Events("RockyFest Rock Climbing", "April 23rd", "Hiddenite, NC", "rockyfacepark.com")
+const event2 = new Events("Movie Night At The Park", "Apirl 29th", "Monroe, NC", "www.monroenc.org")
+const event3 = new Events("Hippie Festival", "May 7th - 8th", "Salisbury, NC", "www.hippiefest.org")
+const event4 = new Events("Laurel Fest", "May 13th - 14th", "Laurel, NC", "laurelfestnc.com")
+const event5 = new Events("Hokefest", "June 2- 12th", "Raeford, NC", "HokeFest Facebook Page")
+const event6 = new Events("Peak Resources", "June 24th", "Gatonia, NC", "peakresourcesinc.com")
 
 
 // This creates the url that will take them to the page
-const event1Link = "https://www.cheraw.com/residents/what_to_do/upcoming_festivals_and_events/index.php";
-const event2Link = "https://www.foodtruckfestivalsofamerica.com/";
-const event3Link = "https://rockyfacepark.com/rockyfest/"
-const event4Link = "https://www.monroenc.org/Community/Things-to-do/Calendar-of-Events";
-const event5Link = "http://www.hippiefest.org/";
-const event6Link = "https://laurelfestnc.com/";
+const event1Link = "https://rockyfacepark.com/rockyfest/";
+const event2Link = "https://www.monroenc.org/Community/Things-to-do/Calendar-of-Events";
+const event3Link = "http://www.hippiefest.org/"
+const event4Link = "https://laurelfestnc.com/";
+const event5Link = "https://www.facebook.com/HokeFest";
+const event6Link = "https://peakresourcesinc.com/our-locations/gastonia/";
 
 eventOneInfo();
 eventTwoInfo();
