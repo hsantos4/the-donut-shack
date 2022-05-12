@@ -101,16 +101,16 @@ const event2 = new Events("Hokefest", "June 2- 12th", "Raeford, NC", "HokeFest F
 const event3 = new Events("Ethan Allen", "June 15th" ,"Maiden, NC", "Google Directions")
 const event4 = new Events("Loftin at Montcross", "June 16th", "Belmont, NC", "loftinatmontcross.com")
 const event5 = new Events("Rodeo Polkville", "June 17th - 18th", "polkvillebaptist.com")
-// const event6 = new Events("Peak Resources", "June 24th", "Gatonia, NC", "peakresourcesinc.com")
+const event6 = new Events("Ethan Allen", "June 22th" ,"Maiden, NC", "Google Directions")
 
 
 // This creates the url that will take them to the page
 const event1Link = "https://laurelfestnc.com/";
 const event2Link = "https://www.facebook.com/HokeFest";
-const event3Link = "https://www.google.com/search?q=ethan+allen+maiden+nc&client=firefox-b-1-d&sxsrf=ALiCzsZ3_qCZY2CBHVESXYYAEFxV_XROfA%3A1652349799161&ei=Z9t8YtucCaigkPIPy4WH8As&gs_ssp=eJzj4tZP1zcsKapISyk0N2C0UjWosLAwNUtOMjQzNU82M040NbQyqEhKSkwyMzdLTTYxSTYxTzPzEk0tyUjMU0jMyUnNU8hNzEwBUnnJAD3oFto&oq=ethan+allen&gs_lcp=Cgdnd3Mtd2l6EAEYADINCC4QxwEQrwEQsAMQJ0oECEEYAEoECEYYAFAAWABgyAtoAXABeACAAQCIAQCSAQCYAQDIAQHAAQE&sclient=gws-wiz"
+const event3Link = "https://www.google.com/search?q=ethan+allen+maiden+nc&client=firefox-b-1-d&sxsrf=ALiCzsZ3_qCZY2CBHVESXYYAEFxV_XROfA%3A1652349799161&                ei=Z9t8YtucCaigkPIPy4WH8As&gs_ssp=eJzj4tZP1zcsKapISyk0N2C0UjWosLAwNUtOMjQzNU82M040NbQyqEhKSkwyMzdLTTYxSTYxTzPzEk0tyUjMU0jMyUnNU8hNzEwBUnnJAD3oFto&oq=ethan+allen&gs_lcp=Cgdnd3Mtd2l6EAEYADINCC4QxwEQrwEQsAMQJ0oECEEYAEoECEYYAFAAWABgyAtoAXABeACAAQCIAQCSAQCYAQDIAQHAAQE&sclient=gws-wiz"
 const event4Link = "https://www.loftinatmontcross.com/Contact.aspx";
 const event5Link = "http://www.polkvillebaptist.com/rodeo";
-// const event6Link = "https://peakresourcesinc.com/our-locations/gastonia/";
+const event6Link = "https://www.google.com/search?q=ethan+allen+maiden+nc&client=firefox-b-1-d&sxsrf=ALiCzsZ3_qCZY2CBHVESXYYAEFxV_XROfA%3A1652349799161&                ei=Z9t8YtucCaigkPIPy4WH8As&gs_ssp=eJzj4tZP1zcsKapISyk0N2C0UjWosLAwNUtOMjQzNU82M040NbQyqEhKSkwyMzdLTTYxSTYxTzPzEk0tyUjMU0jMyUnNU8hNzEwBUnnJAD3oFto&oq=ethan+allen&gs_lcp=Cgdnd3Mtd2l6EAEYADINCC4QxwEQrwEQsAMQJ0oECEEYAEoECEYYAFAAWABgyAtoAXABeACAAQCIAQCSAQCYAQDIAQHAAQE&sclient=gws-wiz";
 
 eventOneInfo();
 eventTwoInfo();
