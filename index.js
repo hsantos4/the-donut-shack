@@ -109,7 +109,7 @@ const event1Link = "https://laurelfestnc.com/";
 const event2Link = "https://www.facebook.com/HokeFest";
 const event3Link = "https://www.google.com/search?q=ethan+allen+maiden+nc&client=firefox-b-1-d&sxsrf=ALiCzsZ3_qCZY2CBHVESXYYAEFxV_XROfA%3A1652349799161&                ei=Z9t8YtucCaigkPIPy4WH8As&gs_ssp=eJzj4tZP1zcsKapISyk0N2C0UjWosLAwNUtOMjQzNU82M040NbQyqEhKSkwyMzdLTTYxSTYxTzPzEk0tyUjMU0jMyUnNU8hNzEwBUnnJAD3oFto&oq=ethan+allen&gs_lcp=Cgdnd3Mtd2l6EAEYADINCC4QxwEQrwEQsAMQJ0oECEEYAEoECEYYAFAAWABgyAtoAXABeACAAQCIAQCSAQCYAQDIAQHAAQE&sclient=gws-wiz"
 const event4Link = "https://www.loftinatmontcross.com/Contact.aspx";
-const event5Link = "www.polkvillebaptist.com/rodeo";
+const event5Link = "https://www.polkvillebaptist.com/rodeo";
 const event6Link = "https://www.google.com/search?q=ethan+allen+maiden+nc&client=firefox-b-1-d&sxsrf=ALiCzsZ3_qCZY2CBHVESXYYAEFxV_XROfA%3A1652349799161&                ei=Z9t8YtucCaigkPIPy4WH8As&gs_ssp=eJzj4tZP1zcsKapISyk0N2C0UjWosLAwNUtOMjQzNU82M040NbQyqEhKSkwyMzdLTTYxSTYxTzPzEk0tyUjMU0jMyUnNU8hNzEwBUnnJAD3oFto&oq=ethan+allen&gs_lcp=Cgdnd3Mtd2l6EAEYADINCC4QxwEQrwEQsAMQJ0oECEEYAEoECEYYAFAAWABgyAtoAXABeACAAQCIAQCSAQCYAQDIAQHAAQE&sclient=gws-wiz";
 
 eventOneInfo();
