@@ -96,21 +96,21 @@ const eventSixWeb = document.querySelector('.eventSixWeb');
 
 
 // Adding details for the site components
-const event1 = new Events("RockyFest Rock Climbing", "April 23rd", "Hiddenite, NC", "rockyfacepark.com")
-const event2 = new Events("Movie Night At The Park", "Apirl 29th", "Monroe, NC", "www.monroenc.org")
-const event3 = new Events("Hippie Festival", "May 7th - 8th", "Salisbury, NC", "www.hippiefest.org")
-const event4 = new Events("Laurel Fest", "May 13th - 14th", "Laurel, NC", "laurelfestnc.com")
-const event5 = new Events("Hokefest", "June 2- 12th", "Raeford, NC", "HokeFest Facebook Page")
-const event6 = new Events("Peak Resources", "June 24th", "Gatonia, NC", "peakresourcesinc.com")
+const event1 = new Events("Laurel Fest", "May 13th - 14th", "Laurel, NC", "laurelfestnc.com")
+const event2 = new Events("Hokefest", "June 2- 12th", "Raeford, NC", "HokeFest Facebook Page")
+const event3 = new Events("Ethan Allen", "June 15th" ,"Maiden, NC", "Google Directions")
+const event4 = new Events("Loftin at Montcross", "June 16th", "Belmont, NC", "loftinatmontcross.com")
+const event5 = new Events("Rodeo Polkville", "June 17th - 18th", "polkvillebaptist.com")
+// const event6 = new Events("Peak Resources", "June 24th", "Gatonia, NC", "peakresourcesinc.com")
 
 
 // This creates the url that will take them to the page
-const event1Link = "https://rockyfacepark.com/rockyfest/";
-const event2Link = "https://www.monroenc.org/Community/Things-to-do/Calendar-of-Events";
-const event3Link = "http://www.hippiefest.org/"
-const event4Link = "https://laurelfestnc.com/";
-const event5Link = "https://www.facebook.com/HokeFest";
-const event6Link = "https://peakresourcesinc.com/our-locations/gastonia/";
+const event1Link = "https://laurelfestnc.com/";
+const event2Link = "https://www.facebook.com/HokeFest";
+const event3Link = "https://www.google.com/search?q=ethan+allen+maiden+nc&client=firefox-b-1-d&sxsrf=ALiCzsZ3_qCZY2CBHVESXYYAEFxV_XROfA%3A1652349799161&ei=Z9t8YtucCaigkPIPy4WH8As&gs_ssp=eJzj4tZP1zcsKapISyk0N2C0UjWosLAwNUtOMjQzNU82M040NbQyqEhKSkwyMzdLTTYxSTYxTzPzEk0tyUjMU0jMyUnNU8hNzEwBUnnJAD3oFto&oq=ethan+allen&gs_lcp=Cgdnd3Mtd2l6EAEYADINCC4QxwEQrwEQsAMQJ0oECEEYAEoECEYYAFAAWABgyAtoAXABeACAAQCIAQCSAQCYAQDIAQHAAQE&sclient=gws-wiz"
+const event4Link = "https://www.loftinatmontcross.com/Contact.aspx";
+const event5Link = "http://www.polkvillebaptist.com/rodeo";
+// const event6Link = "https://peakresourcesinc.com/our-locations/gastonia/";
 
 eventOneInfo();
 eventTwoInfo();
