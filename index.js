@@ -96,21 +96,21 @@ const eventSixWeb = document.querySelector('.eventSixWeb');
 
 
 // Adding details for the site components
-const event1 = new Events("Laurel Fest", "May 13th - 14th", "Laurel, NC", "laurelfestnc.com")
-const event2 = new Events("Hokefest", "June 2- 12th", "Raeford, NC", "HokeFest Facebook Page")
-const event3 = new Events("Ethan Allen", "June 15th" ,"Maiden, NC", "Google Directions")
-const event4 = new Events("Loftin at Montcross", "June 16th", "Belmont, NC", "loftinatmontcross.com")
-const event5 = new Events("Rodeo Polkville", "June 17th - 18th","Polkville, NC", "polkvillebaptist.com")
-const event6 = new Events("Ethan Allen", "June 22th" ,"Maiden, NC", "Google Directions")
+const event1 = new Events("Ethan Allen", "June 22th" ,"Maiden, NC", "Google Directions")
+const event2 = new Events("Peak Resources", "June 24th", "Gastonia, NC", "peakresourcesinc.com")
+const event3 = new Events("Loftin at Montcross", "June 28th", "Belmont, NC", "loftinatmontcross.com")
+const event4 = new Events("Lumbee Homecoming week", "June 30th - July 2nd", "Lumberton, NC", "Event information")
+const event5 = new Events("Cherokee Summer Festival", "July 4th - 9th","Cherokee, NC", "Event information")
+const event6 = new Events("NC Peach Festival", "July 15th - 16th", "Candor, NC", "ncpeachfestival.com")
 
 
 // This creates the url that will take them to the page
-const event1Link = "https://laurelfestnc.com/";
-const event2Link = "https://www.facebook.com/HokeFest";
-const event3Link = "https://www.google.com/search?q=ethan+allen+maiden+nc&client=firefox-b-1-d&sxsrf=ALiCzsZ3_qCZY2CBHVESXYYAEFxV_XROfA%3A1652349799161&                ei=Z9t8YtucCaigkPIPy4WH8As&gs_ssp=eJzj4tZP1zcsKapISyk0N2C0UjWosLAwNUtOMjQzNU82M040NbQyqEhKSkwyMzdLTTYxSTYxTzPzEk0tyUjMU0jMyUnNU8hNzEwBUnnJAD3oFto&oq=ethan+allen&gs_lcp=Cgdnd3Mtd2l6EAEYADINCC4QxwEQrwEQsAMQJ0oECEEYAEoECEYYAFAAWABgyAtoAXABeACAAQCIAQCSAQCYAQDIAQHAAQE&sclient=gws-wiz"
-const event4Link = "https://www.loftinatmontcross.com/Contact.aspx";
-const event5Link = "http://www.polkvillebaptist.com/rodeo";
-const event6Link = "https://www.google.com/search?q=ethan+allen+maiden+nc&client=firefox-b-1-d&sxsrf=ALiCzsZ3_qCZY2CBHVESXYYAEFxV_XROfA%3A1652349799161&                ei=Z9t8YtucCaigkPIPy4WH8As&gs_ssp=eJzj4tZP1zcsKapISyk0N2C0UjWosLAwNUtOMjQzNU82M040NbQyqEhKSkwyMzdLTTYxSTYxTzPzEk0tyUjMU0jMyUnNU8hNzEwBUnnJAD3oFto&oq=ethan+allen&gs_lcp=Cgdnd3Mtd2l6EAEYADINCC4QxwEQrwEQsAMQJ0oECEEYAEoECEYYAFAAWABgyAtoAXABeACAAQCIAQCSAQCYAQDIAQHAAQE&sclient=gws-wiz";
+const event1Link = "https://www.google.com/search?q=ethan+allen+maiden+nc&client=firefox-b-1-d&sxsrf=ALiCzsZ3_qCZY2CBHVESXYYAEFxV_XROfA%3A1652349799161&                ei=Z9t8YtucCaigkPIPy4WH8As&gs_ssp=eJzj4tZP1zcsKapISyk0N2C0UjWosLAwNUtOMjQzNU82M040NbQyqEhKSkwyMzdLTTYxSTYxTzPzEk0tyUjMU0jMyUnNU8hNzEwBUnnJAD3oFto&oq=ethan+allen&gs_lcp=Cgdnd3Mtd2l6EAEYADINCC4QxwEQrwEQsAMQJ0oECEEYAEoECEYYAFAAWABgyAtoAXABeACAAQCIAQCSAQCYAQDIAQHAAQE&sclient=gws-wiz";
+const event2Link = "https://peakresourcesinc.com/our-locations/gastonia/";
+const event3Link = "https://www.loftinatmontcross.com/"
+const event4Link = "https://www.lumberton-nc.com/event/lumbee-homecoming-2/2022-06-28/";
+const event5Link = "https://visitcherokeenc.com/events/detail/cherokee-summer-carnival/";
+const event6Link = "https://www.ncpeachfestival.com/";
 
 eventOneInfo();
 eventTwoInfo();
