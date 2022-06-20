@@ -105,8 +105,10 @@ blockquote, q {
 	font-size: 1.2rem;
 }
 
-.mobile-link:focus {
+.mobile-link:focus,
+.mobile-link:hover {
 	text-decoration: underline;
+	color: #5b278c;
 }
 
 /* Hero section */
@@ -157,6 +159,12 @@ blockquote, q {
 	padding: .5rem 2rem;
 	border-radius: 20px;
 	margin-top: 1rem;
+	box-shadow: 1px 1px 20px 6px #919191;
+}
+
+.btn:hover {
+	background-color: #f72320;
+	box-shadow: 1px 1px 20px 6px #afafaf;
 }
 
 /* Info section */
@@ -174,7 +182,10 @@ blockquote, q {
 }
 
 .info-content {
-	margin: auto 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
 }
 
@@ -182,6 +193,7 @@ blockquote, q {
 	font-size: 2.8rem;
 	font-weight: 400;
 	margin-bottom: 1rem;
+	text-align: center;
 }
 
 .info-content p {
@@ -189,12 +201,16 @@ blockquote, q {
 	font-size: 1.2rem;
 	font-weight: 100;
 	margin-bottom: 1rem;
+	text-align: center;
 }
 
 
 /* Events */
+.events-page {
+margin: 2rem 0;
+}
 .events {
-	padding: 1rem;
+	padding: 2rem;
 	text-align: center;
 }
 
@@ -215,9 +231,10 @@ blockquote, q {
 	background-color: rgb(106, 46, 161);
 	color: #ffffff;
 	border-radius: 10px;
-	margin: .5rem auto;
+	margin: 2rem auto;
 	padding: 1rem;
 	width: 60%;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .5);
 }
 
 .eventDetail h2 {
@@ -297,7 +314,6 @@ blockquote, q {
 }
 
 .about-cta-container {
-
 	font-size: 1.6rem;
 }
 /* This is for the logo */
@@ -344,20 +360,27 @@ blockquote, q {
 
 }
 
+label {
+	margin-bottom: .2rem;
+}
+
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="tel"],
+input[type='number'],
+input[type='date'] {
 	border: none;
-	border-radius: 20px;
+	border-radius: 10px;
 	padding: 6px 6px;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 	width: 60%;
+	color: #000000;
 }
 
 #message {
 	border: none;
 	margin-bottom: 1rem;
 	width: 100%;
-
 	font-size: 1.4rem;
 }
 
@@ -375,8 +398,7 @@ input[type="email"] {
 }
 
 .contact-form button:hover {
-	background-color: #000000;
-	color: white;
+	background-color: #f2f2f2;
 	cursor: pointer;
 }
 
