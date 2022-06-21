@@ -22,7 +22,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 /* remember to define focus styles! */
 :focus {
 	outline: 1;
-	color: #e8ddf7;
+	color: #1b1b1b;
 }
 body {
 	line-height: 1;
