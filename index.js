@@ -96,21 +96,21 @@ const eventSixWeb = document.querySelector('.eventSixWeb');
 
 
 // Adding details for the site components
-const event1 = new Events("Ethan Allen", "June 22th" ,"Maiden, NC", "Google Directions")
-const event2 = new Events("Peak Resources", "June 24th", "Gastonia, NC", "peakresourcesinc.com")
-const event3 = new Events("Loftin at Montcross", "June 28th", "Belmont, NC", "loftinatmontcross.com")
-const event4 = new Events("Lumbee Homecoming week", "June 30th - July 2nd", "Lumberton, NC", "Event information")
-const event5 = new Events("Cherokee Summer Festival", "July 4th - 9th","Cherokee, NC", "Event information")
-const event6 = new Events("NC Peach Festival", "July 15th - 16th", "Candor, NC", "ncpeachfestival.com")
+const event1 = new Events("Lumbee Homecoming week", "June 30th - July 2nd", "Lumberton, NC", "Event information")
+const event2 = new Events("Cherokee Summer Festival", "July 4th - 9th","Cherokee, NC", "Event information")
+const event3 = new Events("NC Peach Festival", "July 15th - 16th", "Candor, NC", "ncpeachfestival.com")
+const event4 = new Events("Ardmore at the Trail", "July 29th", "Indian Trail, NC", "ardmoreatthetrail.com")
+const event5 = new Events("Loftin at Montcross", "August 5th", "Belmont, NC", "loftinatmontcross.com")
+const event6 = new Events("Southern States", "August 6th", "Monroe, NC", "www.southernstates.com")
 
 
 // This creates the url that will take them to the page
-const event1Link = "https://www.google.com/search?q=ethan+allen+maiden+nc&client=firefox-b-1-d&sxsrf=ALiCzsZ3_qCZY2CBHVESXYYAEFxV_XROfA%3A1652349799161&                ei=Z9t8YtucCaigkPIPy4WH8As&gs_ssp=eJzj4tZP1zcsKapISyk0N2C0UjWosLAwNUtOMjQzNU82M040NbQyqEhKSkwyMzdLTTYxSTYxTzPzEk0tyUjMU0jMyUnNU8hNzEwBUnnJAD3oFto&oq=ethan+allen&gs_lcp=Cgdnd3Mtd2l6EAEYADINCC4QxwEQrwEQsAMQJ0oECEEYAEoECEYYAFAAWABgyAtoAXABeACAAQCIAQCSAQCYAQDIAQHAAQE&sclient=gws-wiz";
-const event2Link = "https://peakresourcesinc.com/our-locations/gastonia/";
-const event3Link = "https://www.loftinatmontcross.com/"
-const event4Link = "https://www.lumberton-nc.com/event/lumbee-homecoming-2/2022-06-28/";
-const event5Link = "https://visitcherokeenc.com/events/detail/cherokee-summer-carnival/";
-const event6Link = "https://www.ncpeachfestival.com/";
+const event1Link = "https://www.lumberton-nc.com/event/lumbee-homecoming-2/2022-06-28/";
+const event2Link = "https://visitcherokeenc.com/events/detail/cherokee-summer-carnival/";
+const event3Link = "https://www.ncpeachfestival.com/"
+const event4Link = "https://www.ardmoreatthetrail.com/contactus";
+const event5Link = "https://www.loftinatmontcross.com/Contact.aspx";
+const event6Link = "https://www.southernstates.com/farm-store/store-locations/79417";
 
 eventOneInfo();
 eventTwoInfo();
