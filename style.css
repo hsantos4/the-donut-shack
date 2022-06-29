@@ -377,6 +377,10 @@ input[type='date'] {
 	color: #000000;
 }
 
+input:focus{
+	outline: #1b1b1b;
+}
+
 #message {
 	border: none;
 	margin-bottom: 1rem;
