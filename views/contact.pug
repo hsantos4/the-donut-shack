@@ -19,7 +19,7 @@ html(lang='en')
   body
     header.nav-header
       nav.main-nav
-        a(href='index.html')
+        a(href='/')
           img.logo(src='./images/compressed/donut-logo1-min.png' alt='A brown doughnut under a little house, with the words the donut shack in the doughnut')
         // Mobile button
         svg.mobile-btn(xmlns='http://www.w3.org/2000/svg' width='55' height='55' fill='currentColor' viewBox='0 0 16 16')
@@ -27,28 +27,28 @@ html(lang='en')
         // Main navigation for large screen sizes
         ul.main-items.hidden
           li.main-item
-            a.main-link(href='index.pug') Home
+            a.main-link(href='/') Home
           li.main-item
-            a.main-link(href='about.pug') About
+            a.main-link(href='/about') About
           li.main-item
-            a.main-link(href='menu.pug') Menu
+            a.main-link(href='/menu') Menu
           li.main-item
-            a.main-link(href='events.pug') Events
+            a.main-link(href='/events') Events
           li.main-item
-            a.main-link(href='contact.pug') Contact
+            a.main-link(href='/contact') Contact
       // drop down menu for mobile screen sizes
       .mobile-container.hidden
         ul.mobile-items
           li.mobile-item
-            a.mobile-link(href='index.pug') Home
+            a.mobile-link(href='/') Home
           li.mobile-item
-            a.mobile-link(href='about.pug') About
+            a.mobile-link(href='/about') About
           li.mobile-item
-            a.mobile-link(href='menu.pug') Menu
+            a.mobile-link(href='/menu') Menu
           li.mobile-item
-            a.mobile-link(href='events.pug') Events
+            a.mobile-link(href='/events') Events
           li.mobile-item
-            a.mobile-link(href='contact.pug') Contact
+            a.mobile-link(href='/contact') Contact
     section.form-section
       .contact-content
         h3 Thank you for your interest in The Donut Shack
@@ -140,13 +140,13 @@ html(lang='en')
       .footer-nav
         ul.footer-nav-items
           li
-            a(href='index.pug')  Home 
+            a(href='/')  Home 
           li
-            a(href='menu.pug')  Menu 
+            a(href='/menu')  Menu 
           li
-            a(href='events.pug')  Events 
+            a(href='/events')  Events 
           li
-            a(href='contact.pug')  Contact 
+            a(href='/contact')  Contact 
         div
           p.copyRightInfo
             span.footer-year
