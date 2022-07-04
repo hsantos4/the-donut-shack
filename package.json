@@ -1,0 +1,25 @@
+{
+  "name": "the-donut-shack",
+  "version": "1.0.0",
+  "description": "\"# the-donut-shack\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsantos4/the-donut-shack.git"
+  },
+  "keywords": [],
+  "author": "Hector Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsantos4/the-donut-shack/issues"
+  },
+  "homepage": "https://github.com/hsantos4/the-donut-shack#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  }
+}
