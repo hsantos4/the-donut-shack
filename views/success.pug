@@ -5,16 +5,19 @@ html(lang='en')
     meta(http-equiv='X-UA-Compatible' content='IE=edge')
     meta(name='viewport' content='width=device-width, initial-scale=1.0')
     meta(name='description' content='The donut shack is a food trailer that serves the best mini donuts in the Carolinas.')
+    meta(name="robots" content="noindex")
     link(rel='shortcut icon' type='image/x-icon' href=' ./images/compressed/donut-browser-logo1-min.png')
     link(rel='stylesheet' href='./styles/style.css')
-    title The donut shack | The best mini donut company
+    title The donut shack | Thank You
     // Global site tag (gtag.js) - Google Analytics
-    //- script(async='' src='https://www.googletagmanager.com/gtag/js?id=G-7084EEE4G7')
-    //- script.
-    //-   window.dataLayer = window.dataLayer || [];
-    //-   function gtag(){dataLayer.push(arguments);}
-    //-   gtag('js', new Date());
-    //-   gtag('config', 'G-7084EEE4G7');
+    script(async='' src='https://www.googletagmanager.com/gtag/js?id=G-7084EEE4G7')
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+      dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-7084EEE4G7');
   body
     header.nav-header
       nav.main-nav
@@ -48,25 +51,12 @@ html(lang='en')
             a.mobile-link(href='/events') Events
           li.mobile-item
             a.mobile-link(href='/contact') Contact
-    // Hero section
-    section.hero
-      .hero-content
-        h1 The Best Mini Donut Company
-        p We make Fresh and Delicious mini donuts right before your eyes
-        .btn-container
-          a.btn.btn-events(type='button' href='/events') Events
-          a.btn.btn-menu(type='button' href='/menu') Menu
-    // This is the end of the hero section
-    // Info section, this will be grid section at the tablet size and larger
-    section.info
-      .info-content
-        h2 Welcome Mini Donut Lovers
-        p
-          | The Donut Shack serves the best mini donuts, our quest is taking us all over NC and SC
-        a.about-cta-container(href='/events') Check if we are near you
-      .info-image-container
-        img.info-image(src='./images/compressed/donut-shack-truck-min.jpg' alt='An image of an owner of a food truck preparing food for a person')
-  
+    // Thank you section
+    section.thanks-section
+      .thanks-container
+        h1 Thank You!
+        p We will be in contact with you shortly
+        a.thanks-link(href='/') Back To Home
     footer.footer
       ul.footer-items
         li.footer-item
@@ -91,5 +81,5 @@ html(lang='en')
           p.copyRightInfo
             span.footer-year
           br
-    script(type="text/javascript" src='index.js')
-  
+    script(type='text/javascript' src='app.js')
+    script(type='text/javascript' src='index.js')

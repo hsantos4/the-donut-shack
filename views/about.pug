@@ -18,7 +18,7 @@ html(lang='en')
   body
     header.nav-header
       nav.main-nav
-        a(href='index')
+        a(href='/')
           img.logo(src='./images/compressed/donut-logo1-min.png' alt='A brown doughnut under a little house, with the words the donut shack in the doughnut')
         // Mobile button
         svg.mobile-btn(xmlns='http://www.w3.org/2000/svg' width='55' height='55' fill='currentColor' viewBox='0 0 16 16')
@@ -34,7 +34,7 @@ html(lang='en')
           li.main-item
             a.main-link(href='/events') Events
           li.main-item
-            a.main-link(href='contact') Contact
+            a.main-link(href='/contact') Contact
       // drop down menu for mobile screen sizes
       .mobile-container.hidden
         ul.mobile-items
@@ -99,7 +99,7 @@ html(lang='en')
           | We hope to see you soon!
           | Dawn and Duane Hunt
       .about-cta-container
-        a(href='events') Check if we are near you 
+        a(href='/events') Check if we are near you 
     footer.footer
       .footer-social
         ul.footer-items
@@ -124,6 +124,5 @@ html(lang='en')
         div
           p.copyRightInfo
             span.footer-year
-    script( type="text/javascript" src="app.js") 
     script(type="text/javascript" src='index.js')
   
