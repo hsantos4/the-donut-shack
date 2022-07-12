@@ -17,8 +17,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-style: inherit;
 	font-size: 100%;
 	font-family: inherit;
-	vertical-align: baseline;
-}
+	vertical-align: baseline; }
 /* remember to define focus styles! */
 :focus {
 	outline: 1;
@@ -262,11 +261,14 @@ margin: 2rem 0;
 	padding: 1rem;
 }
 
+
+
 .footer-items {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 1rem;
+	margin-bottom: 1rem;
 }
 
 .bi-instagram {
@@ -280,6 +282,7 @@ margin: 2rem 0;
 .footer-nav-items li {
 	margin-bottom: .7rem;
 }
+
 
 .footer-nav-items a {
 	text-decoration: none;
