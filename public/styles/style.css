@@ -112,7 +112,7 @@ blockquote, q {
 
 /* Hero section */
 .hero {
-	background-image: url('final-hero.JPG');
+	background-image: url('https://ik.imagekit.io/hjsantos797/the-donut-shack/final-hero_zb6oNNn4f.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1657712802800');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -128,10 +128,7 @@ blockquote, q {
 	transform: translate(-50%, -50%);
 	margin:0 auto;
 	text-align: center;
-	color: #ebebeb;
-
-	
-	
+	color: #ebebeb;	
 }
 
 .hero-content h1 {
@@ -158,12 +155,12 @@ blockquote, q {
 	padding: .5rem 2rem;
 	border-radius: 20px;
 	margin-top: 1rem;
-	box-shadow: 1px 1px 20px 6px #919191;
+	box-shadow: 1px 1px 20px 6px #3d3d3d;
 }
 
 .btn:hover {
 	background-color: #f72320;
-	box-shadow: 1px 1px 20px 6px #afafaf;
+	box-shadow: 1px 1px 20px 6px #2c2c2c;
 }
 
 /* Info section */
