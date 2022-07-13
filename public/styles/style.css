@@ -17,8 +17,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-style: inherit;
 	font-size: 100%;
 	font-family: inherit;
-	vertical-align: baseline;
-}
+	vertical-align: baseline; }
 /* remember to define focus styles! */
 :focus {
 	outline: 1;
@@ -113,7 +112,7 @@ blockquote, q {
 
 /* Hero section */
 .hero {
-	background-image: url('images/donut-shack-compressed/final-hero.JPG');
+	background-image: url('https://ik.imagekit.io/hjsantos797/the-donut-shack/final-hero_zb6oNNn4f.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1657712802800');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -129,10 +128,7 @@ blockquote, q {
 	transform: translate(-50%, -50%);
 	margin:0 auto;
 	text-align: center;
-	color: #ebebeb;
-
-	
-	
+	color: #ebebeb;	
 }
 
 .hero-content h1 {
@@ -159,12 +155,12 @@ blockquote, q {
 	padding: .5rem 2rem;
 	border-radius: 20px;
 	margin-top: 1rem;
-	box-shadow: 1px 1px 20px 6px #919191;
+	box-shadow: 1px 1px 20px 6px #3d3d3d;
 }
 
 .btn:hover {
 	background-color: #f72320;
-	box-shadow: 1px 1px 20px 6px #afafaf;
+	box-shadow: 1px 1px 20px 6px #2c2c2c;
 }
 
 /* Info section */
@@ -262,11 +258,14 @@ margin: 2rem 0;
 	padding: 1rem;
 }
 
+
+
 .footer-items {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 1rem;
+	margin-bottom: 1rem;
 }
 
 .bi-instagram {
@@ -280,6 +279,7 @@ margin: 2rem 0;
 .footer-nav-items li {
 	margin-bottom: .7rem;
 }
+
 
 .footer-nav-items a {
 	text-decoration: none;
@@ -375,6 +375,10 @@ input[type='date'] {
 	margin-bottom: 1.5rem;
 	width: 60%;
 	color: #000000;
+}
+
+input:focus{
+	outline: #1b1b1b;
 }
 
 #message {
@@ -560,6 +564,30 @@ input[type='date'] {
 	}
 
 }
+
+/* 404 */
+.page-not-found-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 95vh;
+}
+.page-not-found-container {
+	padding: 1rem;
+	text-align: center;
+}
+.page-not-found-container h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.page-not-found-container p {
+	margin-bottom: 1rem;
+	font-size: 1.3rem;
+	font-weight: 200;
+}
+
 
 @media only screen and (min-width: 1400px) {
 

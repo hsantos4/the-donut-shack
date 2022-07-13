@@ -25,25 +25,6 @@ mobileBtn.addEventListener('click', () =>  {
 // This is the end of drop down menu
 
 
-
-// This is going to make the navigation stick to the top of th document
-let options = {
-    root: null,
-    threshold: 0
-}
-const headerObserver = (entries) => {
-     if(!entries.isIntersecting) {
-         navHeader.classList.add('sticky');
-        console.log(entries)
-     } else {
-         navHeader.classList.remove('sticky')
-     }
-    
-}
-
-const observer = new IntersectionObserver(headerObserver, options);
-observer.observe(navHeader);
-
 footerInfo();
 
 // This is for the copy right year
@@ -53,15 +34,6 @@ function footerInfo() {
 }
 
 
-
-
-// Events page
-function Events(name, date, location, website) {
-    this.name = name;
-    this.date = date;
-    this.location = location;
-    this.website = website;
-}
 
 // event one
 const eventName = document.querySelector('.eventName');
@@ -95,22 +67,44 @@ const eventSixLocation = document.querySelector('.eventSixLocation');
 const eventSixWeb = document.querySelector('.eventSixWeb');
 
 
+class Events {
+    constructor(name, date, location, website) {
+        this.name = name;
+        this.date = date;
+        this.location = location;
+        this.website = website;
+    }
+
+    // Trying to create a method that makes creating the events easier
+}
+
+
 // Adding details for the site components
-const event1 = new Events("Lumbee Homecoming week", "June 30th - July 2nd", "Lumberton, NC", "Event information")
-const event2 = new Events("Cherokee Summer Festival", "July 4th - 9th","Cherokee, NC", "Event information")
-const event3 = new Events("NC Peach Festival", "July 15th - 16th", "Candor, NC", "ncpeachfestival.com")
-const event4 = new Events("Ardmore at the Trail", "July 29th", "Indian Trail, NC", "ardmoreatthetrail.com")
-const event5 = new Events("Loftin at Montcross", "August 5th", "Belmont, NC", "loftinatmontcross.com")
-const event6 = new Events("Southern States", "August 6th", "Monroe, NC", "www.southernstates.com")
+const event1 = new Events("NC Peach Festival", "July 15th - July 16th", "Candor, NC", "ncpeachfestival.com")
+
+const event2 = new Events("Ardmore at the Trail", "July 29th", "Indian Trail, NC", "ardmoreatthetrail.com")
+
+const event3 = new Events("Loftin at Montcross", "August 5th", "Belmont, NC", "loftinatmontcross.com")
+
+const event4 = new Events("Southern States", "August 6th", "Monroe, NC", "www.southernstates.com")
+
+const event5 = new Events("Honeybee Festival", "August 20th", "Kernersville, NC", "Event Information")
+
+const event6 = new Events("Fall Festival", "August 27th", "Monroe, NC", "Event Information")
 
 
 // This creates the url that will take them to the page
-const event1Link = "https://www.lumberton-nc.com/event/lumbee-homecoming-2/2022-06-28/";
-const event2Link = "https://visitcherokeenc.com/events/detail/cherokee-summer-carnival/";
-const event3Link = "https://www.ncpeachfestival.com/"
-const event4Link = "https://www.ardmoreatthetrail.com/contactus";
-const event5Link = "https://www.loftinatmontcross.com/Contact.aspx";
-const event6Link = "https://www.southernstates.com/farm-store/store-locations/79417";
+const event1Link = "https://www.ncpeachfestival.com/";
+
+const event2Link = "https://www.ardmoreatthetrail.com/contactus";
+
+const event3Link = "https://www.loftinatmontcross.com/Contact.aspx"
+
+const event4Link = "https://www.southernstates.com/farm-store/store-locations/79417";
+
+const event5Link = "https://10times.com/honeybee-festival";
+
+const event6Link = "https://www.monroenc.org/Community/Things-to-Do/Calendar-of-Events";
 
 eventOneInfo();
 eventTwoInfo();
@@ -120,7 +114,7 @@ eventFiveInfo();
 eventSixInfo();
 
 
-
+// Adds the information to the page
 
 function eventOneInfo() {
     eventName.textContent = event1.name;
