@@ -565,6 +565,30 @@ input:focus{
 
 }
 
+/* 404 */
+.page-not-found-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 95vh;
+}
+.page-not-found-container {
+	padding: 1rem;
+	text-align: center;
+}
+.page-not-found-container h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.page-not-found-container p {
+	margin-bottom: 1rem;
+	font-size: 1.3rem;
+	font-weight: 200;
+}
+
+
 @media only screen and (min-width: 1400px) {
 
 	.info-content {

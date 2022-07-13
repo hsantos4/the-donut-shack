@@ -1,18 +1,9 @@
 const express = require('express');
 // const bodyParser = require('body-parser');
 const path = require('path');
-const PORT = 3000;
+const port = process.env.PORT || 3000;
 
 const app = express();
-
-// Parses the body of the post request
-// const urlencodedParser = bodyParser.urlencoded({ extended: false })
-
-
-
-
-
-
 
 
 // Serves the static the files
@@ -42,19 +33,16 @@ app.get('/contact', (req, res) => {
 app.get('/success'), (req, res) => {
     res.render('success')
 }
+app.get('*', (req, res) => {
+    res.render('404');
+})
 
 
 
-// app.post('/contact-form', urlencodedParser, (req, res) => {
-//     console.log(req.body)
-//     res.render('/success')
-    
-   
-    
 
-// })
-
-
-app.listen(PORT, () => {
-    console.log(`Server is listening on`, PORT)
+app.listen(port, (error) => {
+    if (error) {
+        console.log(error)
+    } else
+    console.log(`Server is listening on`, port)
 })
