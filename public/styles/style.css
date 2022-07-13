@@ -1,0 +1,618 @@
+/* This is the reset */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline; }
+/* remember to define focus styles! */
+:focus {
+	outline: 1;
+	color: #1b1b1b;
+}
+body {
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* This is the navigation styles */
+.header {
+	width: 100%;
+	z-index: 1000;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f5f5f5;
+	opacity: .9;
+	
+}
+
+.main-items {
+	width: 32rem;
+	margin: 1rem;
+}
+
+.main-item {
+	display: inline-block;
+	padding-left: 1rem;
+	font-size: 1.4rem;
+	word-break: none;
+}
+
+.main-link {
+    text-decoration: none;
+	font-weight: 500;
+    color: #3D1464;
+}
+
+.mobile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	background-color: #f5f5f5;
+	opacity: .9;
+
+}
+
+.mobile-btn:active {
+	background-color: #cfcccc;
+	border: 1px solid black;
+}
+.mobile-link {
+	display: inline-block;
+	text-decoration: none;
+	color: #3D1464;
+	font-weight: 600;
+	padding-bottom: 1rem;
+	font-size: 1.2rem;
+}
+
+.mobile-link:focus,
+.mobile-link:hover {
+	text-decoration: underline;
+	color: #5b278c;
+}
+
+/* Hero section */
+.hero {
+	background-image: url('https://ik.imagekit.io/hjsantos797/the-donut-shack/final-hero_zb6oNNn4f.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1657712802800');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:95vh;
+	padding: 1.5rem;
+
+}
+
+.hero-content {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin:0 auto;
+	text-align: center;
+	color: #ebebeb;	
+}
+
+.hero-content h1 {
+	font-size: 4rem;
+	font-weight: 600;
+}
+.hero-content p {
+	font-size: 1.3rem;
+	font-weight: 100;
+	margin: 1.5rem 0;
+}
+.btn-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.btn {
+	text-decoration: none;
+	color: rgb(238, 238, 238);
+	font-size: 1.3rem;
+	background-color: #FC100B;
+	padding: .5rem 2rem;
+	border-radius: 20px;
+	margin-top: 1rem;
+	box-shadow: 1px 1px 20px 6px #3d3d3d;
+}
+
+.btn:hover {
+	background-color: #f72320;
+	box-shadow: 1px 1px 20px 6px #2c2c2c;
+}
+
+/* Info section */
+.info {
+	height: 100%;
+	padding: 1rem;
+	margin: 4rem 0rem;
+}
+
+.info-image {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.info-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.info-content h2 {
+	font-size: 2.8rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.info-content p {
+	line-height: 1.4;
+	font-size: 1.2rem;
+	font-weight: 100;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+
+/* Events */
+.events-page {
+margin: 2rem 0;
+}
+.events {
+	padding: 2rem;
+	text-align: center;
+}
+
+.events h2 {
+	font-size:2.4rem ;
+	margin-bottom: 1.5rem;
+}
+
+.events p {
+	font-size: 1.6rem;
+	margin-top: 1rem;
+	font-weight: 100;
+	line-height: 1.2;
+	letter-spacing: 1.2;
+}
+
+.eventDetail {
+	background-color: rgb(106, 46, 161);
+	color: #ffffff;
+	border-radius: 10px;
+	margin: 2rem auto;
+	padding: 1rem;
+	width: 60%;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .5);
+}
+
+.eventDetail h2 {
+	font-weight: 500;
+	font-size: 1.5rem;
+	margin-bottom: .5rem;
+
+}
+
+.eventDetail > p{
+	font-weight: 200;
+	font-size: 1.2;
+	margin-bottom: .5rem;
+}
+
+.eventDetail > a {
+	color: #e8ddf7;
+	word-break: break-all;
+}
+
+/* Footer section */
+.footer {
+	background-color: #f5f5f5;
+	color: rgb(20, 20, 20);
+	padding: 1rem;
+}
+
+
+
+.footer-items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.bi-instagram {
+	padding-left: 30%;
+}
+
+.footer-nav {
+	text-align: center;
+}
+
+.footer-nav-items li {
+	margin-bottom: .7rem;
+}
+
+
+.footer-nav-items a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.2rem;
+}
+/* About content */
+.about {
+	margin: 1rem;
+}
+
+.about-content {
+	width: 70%;
+	padding: 1rem;
+	line-height: 2rem;
+
+}
+
+
+.about-content h4 {
+	font-size: 2rem;
+	font-weight: 500;
+	margin: 2rem 0;
+}
+
+
+.about-cta-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem;
+}
+
+.about-cta-container {
+	font-size: 1.6rem;
+}
+/* This is for the logo */
+.logo{
+    width: 4.3rem;
+    height: auto;
+}
+
+/* Contact form */
+
+.form-section {
+	margin: 1rem;
+	height: 100%;
+}
+
+.contact-content {
+	text-align: center;
+	margin-bottom: 6rem;
+}
+
+.contact-content h3 {
+	font-weight: 500;
+	font-size: 1.9rem;
+	margin-bottom: 1rem;
+}
+
+.contact-content p {
+	margin-bottom: 1rem;
+	font-size: 1.3rem;
+	font-weight: 200;
+	line-height: 1.3;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	margin: 0 auto;
+	background-color: #3D1464;
+	color: white;
+	border-radius: 20px;
+	max-width: 30rem;
+
+}
+
+label {
+	margin-bottom: .2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type='number'],
+input[type='date'] {
+	border: none;
+	border-radius: 10px;
+	padding: 6px 6px;
+	margin-bottom: 1.5rem;
+	width: 60%;
+	color: #000000;
+}
+
+input:focus{
+	outline: #1b1b1b;
+}
+
+#message {
+	border: none;
+	margin-bottom: 1rem;
+	width: 100%;
+	font-size: 1.4rem;
+}
+
+.contact-form button {
+	display: inline-block;
+	margin: 0 auto;
+	width: 10rem;
+	border: none;
+	padding: 10px 10px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	color: #FC100B;
+	font-size: 1.2rem;
+
+}
+
+.contact-form button:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+
+
+
+
+/* Menu */
+
+.menu {
+	padding: 1rem;
+}
+
+.menu-img {
+	width: 100%;
+}
+
+/* About page  */
+.about-image {
+	margin: 1rem;
+}
+.about-img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+/* This is for the navigation to make it sticky */
+
+.sticky {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+/* This is for the hidding things */
+.hidden {
+    display: none;
+}
+	
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+	.mobile-btn {
+		display: none;
+	}
+
+	.main-items {
+		display: block;
+	}
+
+	.mobile-container {
+		display: none;
+	}
+
+	.btn {
+		 padding: .5rem 4rem;
+	}
+
+
+	.events-content p {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.footer-nav-items li {
+		display: inline-block;
+		padding-left: 1rem;
+	}
+
+	
+	.eventDetail {
+		text-align: center;
+		width: 50%;
+	}
+	.about-img {
+		width: 60%;
+	}
+
+	input[type="text"],
+	input[type="email"] {
+	width: 50%;
+}
+
+#message {
+	width: 56%;
+	font-size: 1.4rem;
+}
+
+	.menu-img {
+		display: block;
+		margin: 0 auto;
+		width: 50%;
+	}
+	
+}
+
+@media only screen and (min-width: 1000px) {
+
+	.hero-content h1 {
+		font-size: 6rem;
+	}
+	.hero-content p {
+		font-size: 2rem;
+	}
+
+	.btn-container {
+		margin: 0 auto;
+		width: 50%;
+	}
+
+	.btn-menu {
+		margin-left: 1rem;
+	}
+
+	/* Info section */
+	.info {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		column-gap: 1;
+		grid-template-rows: 100%;
+		grid-template-areas: 
+		"img text"
+		;
+		padding: rem;
+		top: 50%;
+	
+	}
+	.info-image-container {
+		grid-area: img;
+		margin-top: 2rem;
+	}
+	.info-content {
+		grid-area: text;
+		margin: auto auto;
+		 padding: 1rem;
+	}
+
+	.contact-form {
+		width: 50rem;
+	}
+	.eventDetail {
+		text-align: center;
+		width: 40%;
+	}
+
+	.events-content > p {
+		width: 60%;
+		font-size: 1.4rem;
+	}
+	
+	.about-img {
+		width: 50%;
+	}
+	.about-content p {
+		font-size: 1.2rem;
+	}
+
+}
+
+/* 404 */
+.page-not-found-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 95vh;
+}
+.page-not-found-container {
+	padding: 1rem;
+	text-align: center;
+}
+.page-not-found-container h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.page-not-found-container p {
+	margin-bottom: 1rem;
+	font-size: 1.3rem;
+	font-weight: 200;
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+	.info-content {
+		width: 70%;
+	}
+	.events-content h3 {
+		font-size: 3rem;
+	}
+
+	.events-content p {
+		font-size: 1.7rem;
+	}
+
+	.about-img {
+		width: 40%;
+	}
+
+	.menu-img {
+		width: 50%;
+	}
+
+}
+
+
+
+
+
