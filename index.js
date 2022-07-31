@@ -80,31 +80,31 @@ class Events {
 
 
 // Adding details for the site components
-const event1 = new Events("NC Peach Festival", "July 15th - July 16th", "Candor, NC", "ncpeachfestival.com")
+const event1 = new Events("Loftin at Montcross", "August 5th", "Belmont, NC", "loftinatmontcross.com")
 
-const event2 = new Events("Ardmore at the Trail", "July 29th", "Indian Trail, NC", "ardmoreatthetrail.com")
+const event2 = new Events("Southern States", "August 6th", "Monroe, NC", "www.southernstates.com")
 
-const event3 = new Events("Loftin at Montcross", "August 5th", "Belmont, NC", "loftinatmontcross.com")
+const event3 = new Events("Honeybee Festival", "August 20th", "Kernersville, NC", "Event Information")
 
-const event4 = new Events("Southern States", "August 6th", "Monroe, NC", "www.southernstates.com")
+const event4 = new Events("Fall Festival", "August 27th", "Monroe, NC", "Event Information")
 
-const event5 = new Events("Honeybee Festival", "August 20th", "Kernersville, NC", "Event Information")
+const event5 = new Events("Hickory AG Fair", "Aug. 31st - Sept. 5th", "Hickory, NC", "hickoryfair.com")
 
-const event6 = new Events("Fall Festival", "August 27th", "Monroe, NC", "Event Information")
+const event6 = new Events("Urban Farm at Aldersgate", "Sept. 15th", "Charlotte, NC", "urbanfarmataldersgate.org")
 
 
 // This creates the url that will take them to the page
-const event1Link = "https://www.ncpeachfestival.com/";
+const event1Link = "https://www.loftinatmontcross.com/Contact.aspx";
 
-const event2Link = "https://www.ardmoreatthetrail.com/contactus";
+const event2Link = "https://www.southernstates.com/farm-store/store-locations/79417";
 
-const event3Link = "https://www.loftinatmontcross.com/Contact.aspx"
+const event3Link = "https://10times.com/honeybee-festival"
 
-const event4Link = "https://www.southernstates.com/farm-store/store-locations/79417";
+const event4Link = "https://www.monroenc.org/Community/Things-to-Do/Calendar-of-Events";
 
-const event5Link = "https://10times.com/honeybee-festival";
+const event5Link = "https://hickoryfair.com/";
 
-const event6Link = "https://www.monroenc.org/Community/Things-to-Do/Calendar-of-Events";
+const event6Link = "http://urbanfarmataldersgate.org/#address";
 
 eventOneInfo();
 eventTwoInfo();
