@@ -82,7 +82,7 @@ class Events {
 // Adding details for the site components
 const event1 = new Events("Loftin at Montcross", "August 5th", "Belmont, NC", "loftinatmontcross.com")
 
-const event2 = new Events("Southern States", "August 6th", "Monroe, NC", "www.southernstates.com")
+const event2 = new Events("Denton Watermelon Festival", "August 6th", "Monroe, NC", "Event Facebook page")
 
 const event3 = new Events("Honeybee Festival", "August 20th", "Kernersville, NC", "Event Information")
 
@@ -96,9 +96,9 @@ const event6 = new Events("Urban Farm at Aldersgate", "Sept. 15th", "Charlotte, 
 // This creates the url that will take them to the page
 const event1Link = "https://www.loftinatmontcross.com/Contact.aspx";
 
-const event2Link = "https://www.southernstates.com/farm-store/store-locations/79417";
+const event2Link = "https://www.facebook.com/DentonWatermelonFestival/";
 
-const event3Link = "https://10times.com/honeybee-festival"
+const event3Link = "https://kvparks.com/honeybee-festival/"
 
 const event4Link = "https://www.monroenc.org/Community/Things-to-Do/Calendar-of-Events";
 
