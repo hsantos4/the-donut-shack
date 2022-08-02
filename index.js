@@ -82,7 +82,7 @@ class Events {
 // Adding details for the site components
 const event1 = new Events("Loftin at Montcross", "August 5th", "Belmont, NC", "loftinatmontcross.com")
 
-const event2 = new Events("Denton Watermelon Festival", "August 6th", "Monroe, NC", "Event Facebook page")
+const event2 = new Events("Denton Watermelon Festival", "August 6th", "Denton, NC", "Event Facebook page")
 
 const event3 = new Events("Honeybee Festival", "August 20th", "Kernersville, NC", "Event Information")
 
