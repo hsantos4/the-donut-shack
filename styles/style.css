@@ -26,6 +26,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
 	line-height: 1;
 	font-family: 'Open Sans', sans-serif;
+	
 
 }
 ol, ul {
@@ -159,7 +160,7 @@ blockquote, q {
 	color: rgb(238, 238, 238);
 	font-size: 1rem;
 	background-color: #f34b4e;
-	padding: .5rem 2rem;
+	padding: .5rem 1rem;
 	border-radius: 20px;
 	margin-top: 1rem;
 	box-shadow: 1px 1px 20px 6px #3d3d3d;
