@@ -80,6 +80,10 @@ blockquote, q {
     color: #3D1464;
 }
 
+.main-link:hover {
+	color: #743ea7;
+}
+
 .mobile-container {
     display: flex;
     flex-direction: column;
@@ -147,19 +151,20 @@ blockquote, q {
 	
 }
 
-.btn {
+.btn-container  .btn-cta{
 	text-decoration: none;
+	width: 30%;
 	color: rgb(238, 238, 238);
-	font-size: 1.3rem;
-	background-color: #FC100B;
+	font-size: 1rem;
+	background-color: #f34b4e;
 	padding: .5rem 2rem;
 	border-radius: 20px;
 	margin-top: 1rem;
 	box-shadow: 1px 1px 20px 6px #3d3d3d;
 }
 
-.btn:hover {
-	background-color: #f72320;
+.btn-container .btn-cta:hover {
+	background-color: #f76f6d;
 	box-shadow: 1px 1px 20px 6px #2c2c2c;
 }
 
@@ -183,6 +188,7 @@ blockquote, q {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	margin-bottom: 2rem;
 }
 
 .info-content h2 {
@@ -200,6 +206,43 @@ blockquote, q {
 	text-align: center;
 }
 
+.owners {
+	padding: 1rem
+}
+
+img .owners-image {
+	width: 100%;
+}
+
+.owners-content h2 {
+	font-size: 2rem;
+	font-weight: 3rem;
+	text-align: center;
+}
+
+.owners-content p{
+	font-weight: 200;
+	text-align: center;
+	padding: 1rem;
+}
+
+.info .about-cta {
+	display: block;
+	width: 200px;
+	margin: auto auto;
+	text-decoration: none;
+	color: rgb(238, 238, 238);
+	font-size: 1rem;
+	background-color: #f36365;
+	padding: .6rem 1rem;
+	border-radius: 20px;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.info .about-cta:hover {
+	background-color: #f34b4e;
+}
 
 /* Events */
 .events-page {
@@ -484,6 +527,8 @@ input:focus{
 		width: 60%;
 	}
 
+	
+
 	input[type="text"],
 	input[type="email"] {
 	width: 50%;
@@ -562,7 +607,11 @@ input:focus{
 	.about-content p {
 		font-size: 1.2rem;
 	}
-
+	
+	.carousel {
+		width: 50%;
+		margin: auto auto;
+	}
 }
 
 /* 404 */
