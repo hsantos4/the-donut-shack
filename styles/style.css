@@ -30,6 +30,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+	padding: 0;
 }
 /* tables still need 'cellspacing="0"' in the markup */
 table {
@@ -72,6 +73,7 @@ blockquote, q {
 	padding-left: 1rem;
 	font-size: 1.4rem;
 	word-break: none;
+	
 }
 
 .main-link {
@@ -321,6 +323,7 @@ margin: 2rem 0;
 
 .footer-nav-items li {
 	margin-bottom: .7rem;
+	margin: 0;
 }
 
 
