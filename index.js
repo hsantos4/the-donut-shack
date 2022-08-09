@@ -86,7 +86,7 @@ const event2 = new Events("Fall Festival", "August 27th", "Monroe, NC", "Event I
 
 const event3 = new Events("Hickory AG Fair", "Aug. 31st - Sept. 5th", "Hickory, NC", "hickoryfair.com")
 
-const event4 = new Events("Rockingham Speedway Christmas lights", "Dec. 1st - 31st", "", "Event Information")
+const event4 = new Events("Rockingham Speedway Christmas lights", "Dec. 1st - 31st", "Rockingham, NC", "Event Information")
 
 const event5 = new Events("Christmas Pop up at Northern States", "Nov. 19th", "Monroe, NC", "")
 
