@@ -86,11 +86,11 @@ const event2 = new Events("Fall Festival", "August 27th", "Monroe, NC", "Event I
 
 const event3 = new Events("Hickory AG Fair", "Aug. 31st - Sept. 5th", "Hickory, NC", "hickoryfair.com")
 
-const event4 = new Events("Rockingham Speedway Christmas lights", "Dec. 1st - 31st", "Rockingham, NC", "Event Information")
+const event4 = new Events("Union County Heritage Festival", "Sep. 17th", "Monore, NC", "Event Information")
 
-const event5 = new Events("Christmas Pop up at Northern States", "Nov. 19th", "Monroe, NC", "")
+const event5 = new Events("Rowan County Fair", "Sep. 19th - Sep. 25th", "Salisbury, NC", "rowancountyfair.net")
 
-const event6 = new Events("Mint Hill Madness", "Oct. 20th - Oct. 22nd", "Mint Hill, NC", "minthillevent.org")
+const event6 = new Events("Oktoberfest", "Sep. 30th - Oct. 1st", "Blythewood, SC", "townofblythewoods.gov")
 
 
 
@@ -101,11 +101,11 @@ const event2Link = "https://www.monroenc.org/Community/Things-to-Do/Calendar-of-
 
 const event3Link = "https://hickoryfair.com/"
 
-const event4Link = "https://www.facebook.com/therocknc/";
+const event4Link = "https://www.facebook.com/UnionCountyHeritageFestival/";
 
-const event5Link = "";
+const event5Link = "http://rowancountyfair.net"
 
-const event6Link = "https://www.minthillevents.org/madness";
+const event6Link = "https://www.townofblythewoodsc.gov/news_detail_T29_R264.php";
 
 eventOneInfo();
 eventTwoInfo();
