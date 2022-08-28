@@ -80,32 +80,32 @@ class Events {
 
 
 // Adding details for the site components
-const event1 = new Events("Honeybee Festival", "August 20th", "Kernersville, NC", "Event Information")
+const event1 = new Events("Hickory AG Fair", "Aug. 31st - Sept. 5th", "Hickory, NC", "hickoryfair.com")
 
-const event2 = new Events("Fall Festival", "August 27th", "Monroe, NC", "Event Information")
+const event2 = new Events("Union County Heritage Festival", "Sep. 17th", "Monore, NC", "Event Information")
 
-const event3 = new Events("Hickory AG Fair", "Aug. 31st - Sept. 5th", "Hickory, NC", "hickoryfair.com")
+const event3 = new Events("Rowan County Fair", "Sep. 19th - Sep. 25th", "Salisbury, NC", "rowancountyfair.net")
 
-const event4 = new Events("Union County Heritage Festival", "Sep. 17th", "Monore, NC", "Event Information")
+const event4 = new Events("Oktoberfest", "Sep. 30th - Oct. 1st", "Blythewood, SC", "townofblythewoods.gov")
 
-const event5 = new Events("Rowan County Fair", "Sep. 19th - Sep. 25th", "Salisbury, NC", "rowancountyfair.net")
+const event5 = new Events("John Blue Cotton Festival", "October 8th", "Laurinburg, NC", "johnbluefestival.com")
 
-const event6 = new Events("Oktoberfest", "Sep. 30th - Oct. 1st", "Blythewood, SC", "townofblythewoods.gov")
+const event6 = new Events("Mint Hill Madness", "October 20th - October 22nd", "Mint Hill, NC", "minthillevents.org")
 
 
 
 // This creates the url that will take them to the page
-const event1Link = "https://kvparks.com/honeybee-festival/";
+const event1Link = "https://hickoryfair.com/";
 
-const event2Link = "https://www.monroenc.org/Community/Things-to-Do/Calendar-of-Events";
+const event2Link = "https://www.facebook.com/UnionCountyHeritageFestival/";
 
-const event3Link = "https://hickoryfair.com/"
+const event3Link = "http://rowancountyfair.net"
 
-const event4Link = "https://www.facebook.com/UnionCountyHeritageFestival/";
+const event4Link = "https://www.townofblythewoodsc.gov/news_detail_T29_R264.php";
 
-const event5Link = "http://rowancountyfair.net"
+const event5Link = "https://www.johnbluefestival.com/schedule-1"
 
-const event6Link = "https://www.townofblythewoodsc.gov/news_detail_T29_R264.php";
+const event6Link = "https://www.minthillevents.org/madness";
 
 eventOneInfo();
 eventTwoInfo();
