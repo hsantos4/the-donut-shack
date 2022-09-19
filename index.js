@@ -80,32 +80,32 @@ class Events {
 
 
 // Adding details for the site components
-const event1 = new Events("Hickory AG Fair", "Aug. 31st - Sept. 5th", "Hickory, NC", "hickoryfair.com")
+const event1 = new Events("Rowan County Fair", "Sep. 19th - Sep. 25th", "Salisbury, NC", "rowancountyfair.net")
 
-const event2 = new Events("Union County Heritage Festival", "Sep. 17th", "Monore, NC", "Event Information")
+const event2 = new Events("Oktoberfest", "Sep. 30th - Oct. 1st", "Blythewood, SC", "townofblythewoods.gov")
 
-const event3 = new Events("Rowan County Fair", "Sep. 19th - Sep. 25th", "Salisbury, NC", "rowancountyfair.net")
+const event3 = new Events("John Blue Cotton Festival", "October 8th", "Laurinburg, NC", "johnbluefestival.com")
 
-const event4 = new Events("Oktoberfest", "Sep. 30th - Oct. 1st", "Blythewood, SC", "townofblythewoods.gov")
+const event4 = new Events("Mint Hill Madness", "October 20th - October 22nd", "Mint Hill, NC", "minthillevents.org")
 
-const event5 = new Events("John Blue Cotton Festival", "October 8th", "Laurinburg, NC", "johnbluefestival.com")
+const event5 = new Events("SC Pecan Festival", "Nov. 5th", "Florence, SC", "scpecanfestival.com")
 
-const event6 = new Events("Mint Hill Madness", "October 20th - October 22nd", "Mint Hill, NC", "minthillevents.org")
+const event6 = new Events("Warbirds Over Monroe", "November 12th - 13th", "Monroe, NC", "monroenc.org")
 
 
 
 // This creates the url that will take them to the page
-const event1Link = "https://hickoryfair.com/";
+const event1Link = "http://rowancountyfair.net";
 
-const event2Link = "https://www.facebook.com/UnionCountyHeritageFestival/";
+const event2Link = "https://www.townofblythewoodsc.gov/news_detail_T29_R264.php";
 
-const event3Link = "http://rowancountyfair.net"
+const event3Link = "https://www.johnbluefestival.com/schedule-1"
 
-const event4Link = "https://www.townofblythewoodsc.gov/news_detail_T29_R264.php";
+const event4Link = "https://www.minthillevents.org/madness";
 
-const event5Link = "https://www.johnbluefestival.com/schedule-1"
+const event5Link = "https://scpecanfestival.com"
 
-const event6Link = "https://www.minthillevents.org/madness";
+const event6Link = "https://www.monroenc.org/Departments/Tourism/Warbirds-Over-Monroe-Air-Show/Air-Show-Performers";
 
 eventOneInfo();
 eventTwoInfo();
