@@ -90,8 +90,6 @@ const event4 = new Events("Faith Frosty Fest", "Nov. 26th", "Faith, NC", "Get Mo
 
 const event5 = new Events("Rockingham Speedway Christmas lights", "Rockingham, NC", "Get More Information")
 
-const event6 = new Events("")
-
 
 
 // This creates the url that will take them to the page
@@ -99,13 +97,13 @@ const event1Link = "https://scpecanfestival.com";
 
 const event2Link = "https://www.monroenc.org/Departments/Tourism/Warbirds-Over-Monroe-Air-Show/Air-Show-Performers";
 
-const event3Link = "https://www.google.com/maps/dir//southern+states+monroe+nc/@35.074191,-80.9953533,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x885430d3586a3e31:0x6f683e5c11ed3871!2m2!1d-80.5127608!2d34.9725699"
+const event3Link = "https://www.google.com/maps/dir//southern+states+monroe+nc/@35.074191,-80.9953533,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x885430d3586a3e31:0x6f683e5c11ed3871!2m2!1d-80.5127608!2d34.9725699";
 
 const event4Link = "https://facebook.com/events/s/faith-frosty-fest-2022/765049068002434/";
 
-const event5Link = "https://www.facebook.com/therocknc/"
+const event5Link = "https://www.facebook.com/therocknc/";
 
-const event6Link = "";
+
 
 eventOneInfo();
 eventTwoInfo();
