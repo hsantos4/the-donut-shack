@@ -80,32 +80,32 @@ class Events {
 
 
 // Adding details for the site components
-const event1 = new Events("John Blue Cotton Festival", "October 8th", "Laurinburg, NC", "johnbluefestival.com")
+const event1 = new Events("SC Pecan Festival", "Nov. 5th", "Florence, SC", "scpecanfestival.com")
 
-const event2 = new Events("Mint Hill Madness", "October 20th - October 22nd", "Mint Hill, NC", "minthillevents.org")
+const event2 = new Events("Warbirds Over Monroe", "November 12th - 13th", "Monroe, NC", "monroenc.org")
 
-const event3 = new Events("SC Pecan Festival", "Nov. 5th", "Florence, SC", "scpecanfestival.com")
+const event3 = new Events("Christmas Pop Up", "Nov. 19th", "Monroe, NC", "Get Directions")
 
-const event4 = new Events("Warbirds Over Monroe", "November 12th - 13th", "Monroe, NC", "monroenc.org")
+const event4 = new Events("Faith Frosty Fest", "Nov. 26th", "Faith, NC", "Get More Information")
 
-const event5 = new Events("Christmas Pop Up", "Nov. 19th", "Monroe, NC", "Get Directions")
+const event5 = new Events("Rockingham Speedway Christmas lights", "Rockingham, NC", "Get More Information")
 
-const event6 = new Events("Faith Frosty Fest", "Nov. 26th", "Faith, NC", "Get More Information")
+const event6 = new Events("")
 
 
 
 // This creates the url that will take them to the page
-const event1Link = "https://www.johnbluefestival.com/schedule-1";
+const event1Link = "https://scpecanfestival.com";
 
-const event2Link = "https://www.minthillevents.org/madness";
+const event2Link = "https://www.monroenc.org/Departments/Tourism/Warbirds-Over-Monroe-Air-Show/Air-Show-Performers";
 
-const event3Link = "https://scpecanfestival.com"
+const event3Link = "https://www.google.com/maps/dir//southern+states+monroe+nc/@35.074191,-80.9953533,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x885430d3586a3e31:0x6f683e5c11ed3871!2m2!1d-80.5127608!2d34.9725699"
 
-const event4Link = "https://www.monroenc.org/Departments/Tourism/Warbirds-Over-Monroe-Air-Show/Air-Show-Performers";
+const event4Link = "https://facebook.com/events/s/faith-frosty-fest-2022/765049068002434/";
 
-const event5Link = "https://www.google.com/maps/dir//southern+states+monroe+nc/@35.074191,-80.9953533,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x885430d3586a3e31:0x6f683e5c11ed3871!2m2!1d-80.5127608!2d34.9725699"
+const event5Link = "https://www.facebook.com/therocknc/"
 
-const event6Link = "https://facebook.com/events/s/faith-frosty-fest-2022/765049068002434/";
+const event6Link = "";
 
 eventOneInfo();
 eventTwoInfo();
