@@ -61,10 +61,10 @@ const eventFiveDate = document.querySelector('.eventFiveDate');
 const eventFiveLocation = document.querySelector('.eventFiveLocation');
 const eventFiveWeb = document.querySelector('.eventFiveWeb');
 // eventSix
-const eventSixName = document.querySelector('.eventSixName');
-const eventSixDate = document.querySelector('.eventSixDate');
-const eventSixLocation = document.querySelector('.eventSixLocation');
-const eventSixWeb = document.querySelector('.eventSixWeb');
+// const eventSixName = document.querySelector('.eventSixName');
+// const eventSixDate = document.querySelector('.eventSixDate');
+// const eventSixLocation = document.querySelector('.eventSixLocation');
+// const eventSixWeb = document.querySelector('.eventSixWeb');
 
 
 class Events {
