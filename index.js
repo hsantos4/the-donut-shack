@@ -60,11 +60,7 @@ const eventFiveName = document.querySelector('.eventFiveName');
 const eventFiveDate = document.querySelector('.eventFiveDate');
 const eventFiveLocation = document.querySelector('.eventFiveLocation');
 const eventFiveWeb = document.querySelector('.eventFiveWeb');
-// eventSix
-// const eventSixName = document.querySelector('.eventSixName');
-// const eventSixDate = document.querySelector('.eventSixDate');
-// const eventSixLocation = document.querySelector('.eventSixLocation');
-// const eventSixWeb = document.querySelector('.eventSixWeb');
+
 
 
 class Events {
@@ -75,7 +71,6 @@ class Events {
         this.website = website;
     }
 
-    // Trying to create a method that makes creating the events easier
 }
 
 
@@ -90,7 +85,6 @@ const event4 = new Events("Faith Frosty Fest", "Nov. 26th", "Faith, NC", "Get Mo
 
 const event5 = new Events("Rockingham Speedway Christmas lights", "Rockingham, NC", "Get More Information")
 
-// const event6 = new Events("")
 
 
 
@@ -105,14 +99,14 @@ const event4Link = "https://facebook.com/events/s/faith-frosty-fest-2022/7650490
 
 const event5Link = "https://www.facebook.com/therocknc/";
 
-// const event6Link = "";
+
 
 eventOneInfo();
 eventTwoInfo();
 eventThreeInfo();
 eventFourInfo();
 eventFiveInfo();
-// eventSixInfo();
+
 
 
 // Adds the information to the page
@@ -157,12 +151,3 @@ function eventFiveInfo() {
     eventFiveWeb.target = "_blank"
     eventFiveWeb.textContent = event5.website;
 }
-// function eventSixInfo() {
-//     eventSixName.textContent = event6.name;
-//     eventSixDate.textContent = event6.date;
-//     eventSixLocation.textContent = event6.location;
-//     eventSixWeb.href = event6Link;
-//     eventSixWeb.target = "_blank"
-//     eventSixWeb.textContent = event6.website;
-// }
-
