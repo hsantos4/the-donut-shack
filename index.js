@@ -83,7 +83,7 @@ const event3 = new Events("Christmas Pop Up", "Nov. 19th", "Monroe, NC", "Get Di
 
 const event4 = new Events("Faith Frosty Fest", "Nov. 26th", "Faith, NC", "Get More Information")
 
-const event5 = new Events("Rockingham Speedway Christmas lights", "Rockingham, NC", "Get More Information")
+const event5 = new Events("Rockingham Speedway Christmas lights", "Dec. 1st - 31st", "Rockingham, NC", "Get More Information")
 
 
 
