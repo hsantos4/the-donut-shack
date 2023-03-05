@@ -8,25 +8,35 @@ const mainNav = document.querySelector('.main-nav');
 const footerYear = document.querySelector('.footer-year');
 const copyRightInfo = document.querySelector('.copyRightInfo');
 // const headSection = document.head;
-
-
 let copyYear = footerYear.innerText = new Date().getFullYear();
 
-// Add the script ag dynamically
+// Add the script on the  click the menu is created
 
-// Mobile click down
-mobileBtn.addEventListener('click', () =>  {
+
+mobileBtn.addEventListener('click', openMobileMenu);
+ 
+
+// creates and displays the mobile menu when 
+function openMobileMenu() {
+
+    // Trying to create the mobile menu 
+    //  let mobileContainerDiv = document.createElement("div");
+    //  mobileContainerDiv.classList.add("mobile-container", "hidden");
+    
+
     if (mobileContainer.classList.contains('hidden')) {
         mobileContainer.classList.remove('hidden')
     } else {
         mobileContainer.classList.add('hidden');
     }
-});
-// This is the end of drop down menu
 
 
+
+ }
+
+
+ 
 footerInfo();
-
 // This is for the copy right year
 function footerInfo() {
     copyRightInfo.innerText = "Copyright " + "© " + `${copyYear} ` +  "The Donut Shack." + " All rights reserved";
@@ -81,23 +91,23 @@ const event2 = new Events("Ardmore @ the trail", "Feb. 4th", "321 E Park Rd.")
 
 const event3 = new Events("Tyler Herndon Thin Blue Line Memorial Foundation", "Feb. 18th", "Belmont, NC", "Facebook Page")
 
-const event4 = new Events("", "", "", "")
+const event4 = new Events("Test", "Nc", "Feb. 4", "Website url")
 
-const event5 = new Events("", "", "", "")
+const event5 = new Events("This is a", "SC", "Tuesday", "instagram")
 
 
 
 
 // This creates the url that will take them to the page
-const event1Link = "";
+const event1Link = "#";
 
-const event2Link = "";
+const event2Link = "#";
 
 const event3Link = "https://www.facebook.com/TylerHerndonMemorialFoundation?mibextid=LQQJ4d";
 
-const event4Link = "";
+const event4Link = "#";
 
-const event5Link = "";
+const event5Link = "#";
 
 
 
